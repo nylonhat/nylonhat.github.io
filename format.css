@@ -21,7 +21,7 @@ time, mark, audio, video {
 
 .sidenav {
   height: 100%;
-  width: 140px;
+  width: 8em;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -50,7 +50,7 @@ time, mark, audio, video {
 	color:#1e1e1e ;
 	max-width:30em;
 	margin:auto;
-	margin-left:180px;
+	margin-left:10em;
 	margin-top:1em;
 	
 }
