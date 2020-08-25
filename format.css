@@ -31,6 +31,14 @@ time, mark, audio, video {
   padding-top: 0.5em;
 }
 
+
+@media screen and (max-width: 768px) {
+	.sidenav{
+		display: none;
+	}
+
+}
+
 .sidenav a {
   padding: 3px 1em 3px 1em;
   text-decoration: none;
@@ -53,6 +61,13 @@ time, mark, audio, video {
 	margin-left:10em;
 	margin-top:1em;
 	
+}
+
+@media screen and (max-width: 768px) {
+	.main{
+		margin-left:2em;;
+	}
+
 }
 
 h2 {
