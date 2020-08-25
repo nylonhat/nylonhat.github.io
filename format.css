@@ -32,7 +32,7 @@ time, mark, audio, video {
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 42em) {
 	.sidenav{
 		display: none;
 	}
@@ -60,12 +60,13 @@ time, mark, audio, video {
 	margin:auto;
 	margin-left:10em;
 	margin-top:1em;
+	margin-right:1em;
 	
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 42em) {
 	.main{
-		margin-left:2em;;
+		margin-left:1em;;
 	}
 
 }
