@@ -24,7 +24,7 @@ time, mark, audio, video {
   width: 8em;
   float: left;
   background-color: #111;
-  overflow-x: hidden;
+  overflow:auto;
   padding-top: 0.5em;
   
 }
