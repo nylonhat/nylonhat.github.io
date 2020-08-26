@@ -41,7 +41,7 @@ html, body {
 
 .right {
 	float: left;
-	width: calc(100% - 12em);
+	width: calc(100% - 11em);
 	height: 100%;
 	overflow: auto;
 	box-sizing: border-box;
@@ -58,7 +58,7 @@ html, body {
 
 
 
-@media screen and (max-width: 45em) {
+@media screen and (max-width: 43em) {
 	.left{
 		display: none;
 	}
@@ -91,6 +91,8 @@ html, body {
 	max-width:30em;
 	margin:auto;
 	margin-left:1em;
+	margin-top:1em;
+	margin-right:1em;
 	
 	
 }
