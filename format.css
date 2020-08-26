@@ -36,7 +36,7 @@ html, body {
 	height: 100%;
 	overflow: auto;
 	box-sizing: border-box;
-	
+	background-color: #111;
 }
 
 .right {
@@ -52,16 +52,19 @@ html, body {
 
 
 .sidenav {
-  background: #111;
   
 }
 
 
 
 
-@media screen and (max-width: 42em) {
-	.sidenav{
+@media screen and (max-width: 45em) {
+	.left{
 		display: none;
+	}
+
+	.right{
+		width: 100%;
 	}
 
 }
