@@ -29,6 +29,11 @@ time, mark, audio, video {
   background-color: #111;
   overflow-x: hidden;
   padding-top: 0.5em;
+  overflow-y: hidden;
+}
+
+.sidenav:hover {
+	overflow-y: auto;
 }
 
 
