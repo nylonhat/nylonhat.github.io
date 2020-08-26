@@ -8,17 +8,18 @@
 	<link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
-	
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
 
-<div class="sidenav">
-  <a href="introduction.html">Introduction</a>
-  <a href="#Okizeme">Okizeme</a>
-  <a href="#FrameTraps">Frame traps</a>
-  <a href="#MeatyTiming">Meaty timing</a>
-</div>
+<div class="sidenav"></div>
 
+<script>
+	$(function(){
+		$(".sidenav").load("sidenav.html #sidenavtemplate")
+	});
+</script>
 
 
 <div class="main">
