@@ -25,17 +25,21 @@ time, mark, audio, video {
 }
 
 
-html, body {
+html{
 	height: 100%;
-	height: -webkit-fill-availiable;
 	overflow: hidden;
 	margin: 0;
 
 }
 
+
+body{
+	
+	height: 100%;
+}
+
 #content {
 	height: 100%;
-	height: -webkit-fill-availiable;
 }
 
 .left {
@@ -45,6 +49,8 @@ html, body {
 	overflow: auto;
 	box-sizing: border-box;
 	background-color: #111;
+	overflow-y:scroll;
+	-webkit-overflow-scrolling: touch;
 	
 }
 
