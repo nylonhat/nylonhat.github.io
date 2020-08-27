@@ -27,6 +27,7 @@ time, mark, audio, video {
 
 html{
 	height: webkit-fill-available;
+	height: 100%;
 	overflow: visible;
 	margin: 0;
 
