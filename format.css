@@ -36,6 +36,8 @@ html{
 body{
 	
 	height: 100%;
+	overflow: default;
+	margin: 0;
 }
 
 #content {
