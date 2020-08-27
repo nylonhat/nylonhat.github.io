@@ -42,7 +42,7 @@ html, body{
 	float: left;
 	width: var(--leftcolwidth);
 	height: 100%;
-	overflow: auto;
+	overflow: hidden;
 	box-sizing: border-box;
 	background-color: #111;
 	overflow-y:scroll;
@@ -59,6 +59,10 @@ html, body{
 	overflow-y:scroll;
 	-webkit-overflow-scrolling: touch;
 	
+}
+
+.left:hover {
+	overflow: auto;
 }
 
 
