@@ -45,8 +45,7 @@ html, body{
 	overflow: hidden;
 	box-sizing: border-box;
 	background-color: #111;
-	overflow-y:scroll;
-	-webkit-overflow-scrolling: touch;
+	
 	
 }
 
@@ -63,6 +62,8 @@ html, body{
 
 .left:hover {
 	overflow: auto;
+	overflow-y:scroll;
+	-webkit-overflow-scrolling: touch;
 }
 
 
