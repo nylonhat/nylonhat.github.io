@@ -25,25 +25,22 @@ time, mark, audio, video {
 }
 
 
-
-
-
-body{
-	height: webkit-fill-available;
+html, body{
 	height: 100%;
-	overflow: visible;
+	overflow: hidden;
 	margin: 0;
+
 }
 
+
+
 #content {
-	height: webkit-fill-available;
 	height: 100%;
 }
 
 .left {
 	float: left;
 	width: var(--leftcolwidth);
-	height: webkit-fill-available;
 	height: 100%;
 	overflow: auto;
 	box-sizing: border-box;
