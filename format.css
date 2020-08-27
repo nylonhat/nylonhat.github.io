@@ -45,7 +45,6 @@ html, body{
 	overflow: hidden;
 	box-sizing: border-box;
 	background-color: #111;
-	margin-right: 16px;
 	
 	
 }
@@ -73,6 +72,7 @@ html, body{
 .sidenav {
 	margin-top:1em;
 	margin-bottom:1em;
+	margin-right:16px;
 }
 
 
