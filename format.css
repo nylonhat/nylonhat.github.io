@@ -35,13 +35,14 @@ html{
 
 
 body{
-	
+	height: webkit-fill-available;
 	height: 100%;
 	overflow: visible;
 	margin: 0;
 }
 
 #content {
+	height: webkit-fill-available;
 	height: 100%;
 }
 
