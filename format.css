@@ -25,13 +25,7 @@ time, mark, audio, video {
 }
 
 
-html{
-	height: webkit-fill-available;
-	height: 100%;
-	overflow: visible;
-	margin: 0;
 
-}
 
 
 body{
@@ -49,6 +43,7 @@ body{
 .left {
 	float: left;
 	width: var(--leftcolwidth);
+	height: webkit-fill-available;
 	height: 100%;
 	overflow: auto;
 	box-sizing: border-box;
