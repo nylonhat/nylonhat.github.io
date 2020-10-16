@@ -123,6 +123,7 @@ html, body{
 
 h2 {
     text-transform: uppercase;
+    font-weight: bold;
     font-family: 'Crimson Text', serif;
     text-align: center;
     font-size: 28px;
