@@ -144,6 +144,12 @@ p {
 	line-height: 125%;
 }
 
+li {
+    font-family: 'Crimson Text', serif;
+    font-size: 18px;
+    line-height: 125%;
+}
+
 .spanleft {
 	text-indent: 0em;
 	font-family: 'Roboto mono', monospace;
