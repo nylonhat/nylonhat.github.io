@@ -148,6 +148,7 @@ ul {
     list-style-position: inside;
     line-height: 125%;
     margin-bottom: 0.5em;
+    margin-left: 1em;
 }
 
 li {
