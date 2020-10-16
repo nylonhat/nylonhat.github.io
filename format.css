@@ -157,11 +157,11 @@ ul {
     line-height: 125%;
 }
 
-    ul li:before {
-        content: "•";
-        position: absolute;
-        left: 0;
-    }
+ul li:before {
+    content: "•";
+    position: absolute;
+    left: 0;
+}
 
 li {
     font-family: 'Crimson Text', serif;
@@ -169,7 +169,22 @@ li {
     line-height: 125%;
 }
 
+table {
+    font-family: 'Crimson Text', serif;
+    font-size: 18px;
+    border-collapse: collapse;
+    width: 100%;
+}
 
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
 
 .spanleft {
 	text-indent: 0em;
