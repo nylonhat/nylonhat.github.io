@@ -178,15 +178,19 @@ table {
 }
 
 td, th {
-    border: 1px solid #cccccc;
+    border: 1px solid #1e1e1e;
     text-align: left;
     padding-left: 5px;
     padding-right: 5px;
 }
 
-tr:nth-child(even) {
-    background-color: #dddddd;
+th {
+    font-weight: 600;
 }
+
+    tr:nth-child(even) {
+        background-color: #dddddd;
+    }
 
 .spanleft {
 	text-indent: 0em;
