@@ -123,10 +123,10 @@ html, body{
 
 h2 {
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: 600;
     font-family: 'Crimson Text', serif;
     text-align: center;
-    font-size: 28px;
+    font-size: 22px;
     margin-bottom: 0.5em;
 }
 
