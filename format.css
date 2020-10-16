@@ -145,8 +145,7 @@ p {
 }
 
 ul {
-    margin-left: 0;
-    padding-left: 1em;
+    list-style-position: inside;
     line-height: 125%;
     margin-bottom: 0.5em;
 }
