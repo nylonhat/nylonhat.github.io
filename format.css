@@ -123,8 +123,8 @@ html, body{
 
 h2 {
     text-transform: uppercase;
-    font-weight: 500;
-    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-family: 'Lato', sans-serif;
     text-align: center;
     font-size: 22px;
     margin-bottom: 0.5em;
