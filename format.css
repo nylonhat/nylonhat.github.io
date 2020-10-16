@@ -145,7 +145,7 @@ p {
 }
 
 ul {
-    list-style-position: inside;
+    list-style-position: outside;
     line-height: 125%;
     margin-bottom: 0.5em;
     margin-left: 1em;
