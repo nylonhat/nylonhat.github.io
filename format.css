@@ -122,10 +122,11 @@ html, body{
 }
 
 h2 {
-	font-family: 'Roboto', sans-serif;
-	font-size: 28px;
-	margin-bottom: 0.5em;
-	font-weight: 500;
+    font-family: 'Crimson Text', serif;
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 0.5em;
+    font-weight: 500;
 }
 
 h3 {
