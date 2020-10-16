@@ -123,9 +123,9 @@ html, body{
 
 h2 {
     text-transform: uppercase;
-    font-weight: normal;
+    font-weight: bold;
     font-family: 'Lato', sans-serif;
-    text-align: center;
+    text-align: left;
     font-size: 22px;
     margin-bottom: 0.5em;
 }
