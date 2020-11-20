@@ -92,6 +92,7 @@ html, body{
   color: #dadada;
   display: block;
   font-family: 'Roboto', sans-serif;
+  border-radius: 3px;
 }
 
 .sidenav a:hover {
