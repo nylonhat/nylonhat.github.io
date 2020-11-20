@@ -44,7 +44,7 @@ html, body{
 	height: 100%;
 	overflow: auto;
 	box-sizing: border-box;
-	background-color: #111;
+	background-color: #121212;
 	-webkit-overflow-scrolling: touch;
 	
 	
@@ -89,13 +89,13 @@ html, body{
   padding: 3px 1em 3px 1em;
   text-decoration: none;
   font-size: 16px;
-  color: #f1f1f1;
+  color: #e7e7e7;
   display: block;
   font-family: 'Roboto', sans-serif;
 }
 
 .sidenav a:hover {
-  color: #f1f1f1;
+  color: #e7e7e7;
   background-color: rgb(39, 39, 39);
 }
 
