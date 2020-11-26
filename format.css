@@ -221,6 +221,14 @@ tr:nth-child(odd) {
 	font-weight:bold;
 }
 
+.exbar {
+	color: rgb(181, 181, 255);
+}
+
+.vbar {
+	color: rgb(255, 163, 163);
+}
+
 video {
 	width: 100% ;
 	height: auto ;
