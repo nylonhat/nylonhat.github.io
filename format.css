@@ -221,11 +221,11 @@ tr:nth-child(odd) {
 	font-weight:bold;
 }
 
-.spanright .exbar {
+.exbar {
 	color: rgb(100, 100, 255);
 }
 
-.spanright .vbar {
+.vbar {
 	color: rgb(255, 100, 100);
 }
 
