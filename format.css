@@ -113,16 +113,16 @@ html, body{
 	color:#1e1e1e ;
 	max-width:30em;
 	margin:auto;
-	margin-left:1em;
+	margin-left:1.5em;
 	margin-top:1em;
-	margin-right:1em;
+	margin-right:1.5em;
 	
 	
 }
 
 @media screen and (max-width: 45em) {
 	.main{
-		margin-left:1.5em;
+		margin-left:1em;
 	}
 
 }
