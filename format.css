@@ -221,12 +221,12 @@ tr:nth-child(odd) {
 	font-weight:bold;
 }
 
-.exbar {
-	color: rgb(181, 181, 255);
+.spanright .exbar {
+	color: rgb(100, 100, 255);
 }
 
-.vbar {
-	color: rgb(255, 163, 163);
+.spanright .vbar {
+	color: rgb(255, 100, 100);
 }
 
 video {
