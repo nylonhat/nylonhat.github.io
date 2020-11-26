@@ -208,7 +208,7 @@ tr:nth-child(odd) {
 	font-family: 'Roboto mono', monospace;
 	font-size: 13px;
 	text-align:left;
-	margin-bottom: 0;
+	margin-bottom: 1px;
 	font-weight:bold;
 }
 
