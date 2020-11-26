@@ -123,6 +123,7 @@ html, body{
 @media screen and (max-width: 45em) {
 	.main{
 		margin-left:1em;
+		margin-right:1em;
 	}
 
 }
