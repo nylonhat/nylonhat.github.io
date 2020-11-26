@@ -100,9 +100,9 @@ html, body{
   background-color: rgb(39, 39, 39);
 }
 
-.sidenavdivider{
+.sidenav .sidenavdivider{
 	border-bottom: 1px solid #c9c9c9;
-	padding: 3px 2em 3px 2em;
+	margin: 3px 2em 3px 2em;
 }
 
 
