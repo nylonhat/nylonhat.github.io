@@ -21,7 +21,7 @@ time, mark, audio, video {
 
 :root{
 	--leftcolwidth: 11em;
-	--bottomfooterheight: 2.3em;
+	--bottomfooterheight: 2.5em;
 
 }
 
@@ -133,7 +133,7 @@ html, body{
 	overflow: auto;
 	white-space: nowrap;
 	-webkit-overflow-scrolling: touch;
-	border-top: 1px solid #666666;
+	border-top: 5px solid #FFFFFF;
 	overflow-y:hidden;
 	
 }
