@@ -131,6 +131,7 @@ html, body{
 	color: #dddddd;
 	height: var(--bottomfooterheight);
 	overflow: auto;
+	white-space: nowrap;
 }
 
 .navfooter a{
