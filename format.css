@@ -21,7 +21,7 @@ time, mark, audio, video {
 
 :root{
 	--leftcolwidth: 11em;
-	--bottomfooterheight: 1em;
+	--bottomfooterheight: 2em;
 
 }
 
@@ -129,6 +129,8 @@ html, body{
 footer{
 	background-color: #121212;
 	vertical-align: middle;
+	color: #dddddd;
+	height: var(--bottomfooterheight);
 
 }
 
