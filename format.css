@@ -74,7 +74,7 @@ html, body{
 
 
 
-@media screen and (max-width: 46em) {
+@media screen and (max-width: 45.5em) {
 	.left{
 		display: none;
 	}
