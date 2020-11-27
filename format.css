@@ -76,9 +76,7 @@ html, body{
 
 @media screen and (max-width: 45em) {
 	.left{
-		/*display: none;*/
-		width: 0px;
-		transition: width 2s;
+		display: none;
 	}
 
 	.right{
