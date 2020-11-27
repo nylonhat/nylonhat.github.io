@@ -131,11 +131,13 @@ footer{
 	color: #dddddd;
 	height: var(--bottomfooterheight);
 	overflow: auto;
+	display: inline-block;
 
 }
 
-footer .sidenavdivider{
+footer #sidenavtemplate{
 	display: inline-block;
+	color: #dddddd;
 }
 
 @media screen and (max-width: 45em) {
