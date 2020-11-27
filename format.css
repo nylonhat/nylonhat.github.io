@@ -21,7 +21,7 @@ time, mark, audio, video {
 
 :root{
 	--leftcolwidth: 11em;
-	--bottomfooterheight: 1.5em;
+	--bottomfooterheight: 5em;
 
 }
 
@@ -131,14 +131,10 @@ footer{
 	color: #dddddd;
 	height: var(--bottomfooterheight);
 	overflow: auto;
-	display: inline-block;
+	display: inline;
 
 }
 
-footer #sidenavtemplate{
-	display: inline-block;
-	color: #dddddd;
-}
 
 @media screen and (max-width: 45em) {
 	.main{
