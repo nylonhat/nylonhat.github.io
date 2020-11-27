@@ -139,15 +139,15 @@ html, body{
 }
 
 .navfooter a{
-	
+	background-color: #121212;
   	text-decoration: none;
   	font-size: 12px;
-  	color:#1e1e1e ;
+  	color: #c9c9c9;
   	display: inline;
   	font-family: 'Roboto', sans-serif;
 	border-radius: 3px;
-	margin-left: 3px;
-	margin-right: 3px;
+	padding-left: 3px;
+	padding-right: 3px;
 }
 
 
