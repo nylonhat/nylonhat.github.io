@@ -21,7 +21,7 @@ time, mark, audio, video {
 
 :root{
 	--leftcolwidth: 11em;
-	--bottomfooterheight: 3em;
+	--bottomfooterheight: 2.5em;
 
 }
 
@@ -144,7 +144,9 @@ html, body{
   	color:#1e1e1e ;
   	display: inline;
   	font-family: 'Roboto', sans-serif;
-  	border-radius: 3px;
+	border-radius: 3px;
+	margin-left: 1px;
+	margin-right: 1px;
 }
 
 
