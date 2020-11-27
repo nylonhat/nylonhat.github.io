@@ -58,6 +58,7 @@ html, body{
 	box-sizing: border-box;
 	overflow-y:scroll;
 	-webkit-overflow-scrolling: touch;
+	padding-right: 15px;
 	
 }
 
