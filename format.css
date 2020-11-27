@@ -21,6 +21,7 @@ time, mark, audio, video {
 
 :root{
 	--leftcolwidth: 11em;
+	--bottomfooterheight: 5em;
 
 }
 
@@ -85,7 +86,7 @@ html, body{
 	}
 
 	#content {
-		height:90%;
+		height:calc(100%- var(--bottomfooterheight));
 	}
 
 }
@@ -123,6 +124,12 @@ html, body{
 	margin-right:1.5em;
 	
 	
+}
+
+#footer{
+	height: var(--bottomfooterheight);
+	vertical-align: middle;
+
 }
 
 @media screen and (max-width: 45em) {
