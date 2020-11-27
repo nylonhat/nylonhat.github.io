@@ -131,6 +131,8 @@ html, body{
 	color: #dddddd;
 	height: var(--bottomfooterheight);
 	overflow: auto;
+	text-decoration: none;
+	
 
 }
 
