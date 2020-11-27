@@ -127,19 +127,20 @@ html, body{
 }
 
 .navfooter{
-	background-color: #121212;
-	color: #dddddd;
+	background-color: #FFFFFF;
+	color:#1e1e1e ;
 	height: var(--bottomfooterheight);
 	overflow: auto;
 	white-space: nowrap;
 	-webkit-overflow-scrolling: touch;
+	margin-top: 5px;
 }
 
 .navfooter a{
 	
   	text-decoration: none;
   	font-size: 12px;
-  	color: #c9c9c9;
+  	color:#1e1e1e ;
   	display: inline;
   	font-family: 'Roboto', sans-serif;
   	border-radius: 3px;
