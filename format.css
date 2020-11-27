@@ -81,7 +81,11 @@ html, body{
 
 	.right{
 		width: 100%;
-		height: 80%;
+		
+	}
+
+	#content {
+		height:90%;
 	}
 
 }
