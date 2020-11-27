@@ -133,7 +133,8 @@ html, body{
 	overflow: auto;
 	white-space: nowrap;
 	-webkit-overflow-scrolling: touch;
-	margin-top: 5px;
+	border-top: 1px solid #666666;
+	padding-top: 5px;
 }
 
 .navfooter a{
