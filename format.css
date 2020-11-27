@@ -133,7 +133,7 @@ html, body{
 	overflow: auto;
 	white-space: nowrap;
 	-webkit-overflow-scrolling: touch;
-	border-top: 10px solid #FFFFFF;
+	border-top: 8px solid #FFFFFF;
 	overflow-y:hidden;
 	
 }
