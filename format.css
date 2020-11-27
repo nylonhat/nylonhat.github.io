@@ -86,7 +86,7 @@ html, body{
 	}
 
 	#content {
-		height:calc(100%- var(--bottomfooterheight));
+		height:calc(100% - var(--bottomfooterheight));
 	}
 
 }
@@ -127,7 +127,7 @@ html, body{
 }
 
 #footer{
-	height: var(--bottomfooterheight);
+	
 	vertical-align: middle;
 
 }
