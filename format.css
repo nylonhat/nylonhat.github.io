@@ -81,6 +81,7 @@ html, body{
 
 	.right{
 		width: 100%;
+		transition: width 2s;
 	}
 
 }
