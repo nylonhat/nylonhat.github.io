@@ -126,7 +126,7 @@ html, body{
 	
 }
 
-#navfooter{
+.navfooter{
 	background-color: #121212;
 	color: #dddddd;
 	height: var(--bottomfooterheight);
