@@ -21,7 +21,7 @@ time, mark, audio, video {
 
 :root{
 	--leftcolwidth: 11em;
-	--bottomfooterheight: 2.5em;
+	--bottomfooterheight: 2.3em;
 
 }
 
@@ -127,8 +127,8 @@ html, body{
 }
 
 .navfooter{
-	background-color: #FFFFFF;
-	color:#1e1e1e ;
+	background-color: #121212;
+	color: #c9c9c9;
 	height: var(--bottomfooterheight);
 	overflow: auto;
 	white-space: nowrap;
