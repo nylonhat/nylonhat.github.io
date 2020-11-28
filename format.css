@@ -81,6 +81,10 @@ html, body{
 	right: calc(50% - calc(var(--leftcolwidth)/2));
 	width: var(--leftcolwidth);
 	border-radius: 5px;
+	overflow: auto;
+	box-sizing: border-box;
+	overflow-y:scroll;
+	-webkit-overflow-scrolling: touch;
 }
 
 .navbutton{
