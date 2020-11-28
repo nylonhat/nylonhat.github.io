@@ -74,7 +74,7 @@ html, body{
 
 
 .mobilenavcontainer{
-	display: block;
+	display: none;
 	height: 20em;
 	position: fixed;
 	bottom: 2em;
@@ -113,6 +113,12 @@ html, body{
 
 	.navbutton{
 		display: block;
+	}
+
+	.main{
+		margin-left:1em;
+		margin-right:1em;
+		margin-bottom: 2em;
 	}
 
 	/*#content {
@@ -201,13 +207,7 @@ html, body{
 }
 
 
-@media screen and (max-width: 45em) {
-	.main{
-		margin-left:1em;
-		margin-right:1em;
-	}
 
-}
 
 h2 {
     text-transform: uppercase;
