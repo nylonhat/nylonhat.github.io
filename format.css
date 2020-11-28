@@ -84,13 +84,13 @@ html, body{
 	right: calc(50% - calc(var(--leftcolwidth)/2));
 	width: var(--leftcolwidth);
 	height: 0.8em;
-	background-color: #121212ee;
+	background-color: #121212;
 	border-top-left-radius: 0.8em;
 	border-top-right-radius: 0.8em;
 }
 
 .navbutton:hover{
-	background-color:#242424ee;
+	background-color:#242424;
 }
 
 .main{
