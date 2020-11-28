@@ -77,10 +77,10 @@ html, body{
 
 @media screen and (max-width: 45.1em) {
 	.left{
-		
+		height: 20em;
 		position: fixed;
 		bottom: 5em;
-  		right: 5em;
+  		right: auto;
  	 	width: 11em;
 	}
 
@@ -89,9 +89,9 @@ html, body{
 		
 	}
 
-	#content {
+	/*#content {
 		height:calc(100% - var(--bottomfooterheight));
-	}
+	}*/
 
 }
 
