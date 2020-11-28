@@ -81,7 +81,8 @@ html, body{
 		position: fixed;
 		bottom: 5em;
   		right: 50%;
- 	 	width: var(--leftcolwidth);
+		  width: var(--leftcolwidth);
+		  border-radius: 5px;
 	}
 
 	.right{
