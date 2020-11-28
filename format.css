@@ -80,8 +80,8 @@ html, body{
 		height: 20em;
 		position: fixed;
 		bottom: 5em;
-  		right: auto;
- 	 	width: 11em;
+  		right: 50%;
+ 	 	width: var(--leftcolwidth);
 	}
 
 	.right{
