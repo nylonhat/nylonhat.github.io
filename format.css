@@ -62,7 +62,7 @@ html, body{
 
 .mobilenavcontainer{
 	display: none;
-	height: 20em;
+	height: 0em;
 	position: fixed;
 	bottom: 2em;
 	right: calc(50% - calc(var(--leftcolwidth)/2));
@@ -73,6 +73,8 @@ html, body{
 	overflow-y:scroll;
 	-webkit-overflow-scrolling: touch;
 	background-color: #121212;
+	transition: height 0.2s;
+	transition-timing-function: ease-out;
 }
 
 .navbutton{
