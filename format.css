@@ -90,6 +90,10 @@ html, body{
 		
 	}
 
+	.navbutton{
+		display: block;
+	}
+
 	/*#content {
 		height:calc(100% - var(--bottomfooterheight));
 	}*/
@@ -117,7 +121,17 @@ html, body{
 	
 }
 
-
+.navbutton{
+	display: none;
+	position:fixed;
+	bottom: 0px;
+	right: calc(50% - calc(var(--leftcolwidth)/2));
+	width: var(--leftcolwidth);
+	height: 0.5em;
+	background-color: #121212;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
 
 
 .main{
