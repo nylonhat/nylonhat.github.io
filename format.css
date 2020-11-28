@@ -61,7 +61,7 @@ html, body{
 }
 
 .mobilenavcontainer{
-	display: none;
+	display: block;
 	height: 0em;
 	position: fixed;
 	bottom: 2em;
