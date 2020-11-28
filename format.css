@@ -75,13 +75,13 @@ html, body{
 .navbutton{
 	display: none;
 	position:fixed;
-	bottom: 0px;
+	bottom: 0.5em;
 	right: calc(50% - calc(var(--leftcolwidth)/2));
 	width: var(--leftcolwidth);
-	height: 0.5em;
+	height: 1em;
 	background-color: #121212;
-	border-top-left-radius: 0.5em;
-	border-top-right-radius: 0.5em;
+	border-top-left-radius: 1em;
+	border-top-right-radius: 1em;
 }
 
 
