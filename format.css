@@ -72,7 +72,17 @@ html, body{
 	margin-bottom:1em;
 }
 
-
+.navbutton{
+	display: none;
+	position:fixed;
+	bottom: 0px;
+	right: calc(50% - calc(var(--leftcolwidth)/2));
+	width: var(--leftcolwidth);
+	height: 0.5em;
+	background-color: #121212;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
 
 
 @media screen and (max-width: 45.1em) {
@@ -121,17 +131,7 @@ html, body{
 	
 }
 
-.navbutton{
-	display: none;
-	position:fixed;
-	bottom: 0px;
-	right: calc(50% - calc(var(--leftcolwidth)/2));
-	width: var(--leftcolwidth);
-	height: 0.5em;
-	background-color: #121212;
-	border-top-left-radius: 3px;
-	border-top-right-radius: 3px;
-}
+
 
 
 .main{
