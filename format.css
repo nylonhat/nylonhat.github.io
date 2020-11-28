@@ -77,7 +77,11 @@ html, body{
 
 @media screen and (max-width: 45.1em) {
 	.left{
-		display: none;
+		
+		position: fixed;
+		bottom: 5em;
+  		right: 5em;
+ 	 	width: 11em;
 	}
 
 	.right{
