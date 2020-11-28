@@ -106,8 +106,8 @@ html, body{
   background-color: rgb(39, 39, 39);
 }
 
-.sidenav a .sidenavdivider{
-	border-bottom: 1px solid #666666;
+.sidenav .sidenavdivider{
+	border-bottom: 1px solid #666666!important;
 	margin: 7px 1.5em 7px 1.5em;
 }
 
