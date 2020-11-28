@@ -156,6 +156,15 @@ html, body{
 	padding-right: 4px;
 	
 }
+
+
+.navfooter a::after{
+	content: "•";
+	color: #666666;
+}
+
+
+
 .navfooter .sidenavdivider{
 	border-right: 2px solid #666666;
 	margin-left:5px;
