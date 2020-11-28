@@ -22,18 +22,13 @@ time, mark, audio, video {
 :root{
 	--leftcolwidth: 11em;
 	--bottomfooterheight: 3em;
-
 }
-
 
 html, body{
 	height: 100%;
 	overflow: hidden;
 	margin: 0;
-
 }
-
-
 
 #content {
 	height: 100%;
@@ -47,8 +42,6 @@ html, body{
 	box-sizing: border-box;
 	background-color: #121212;
 	-webkit-overflow-scrolling: touch;
-	
-	
 }
 
 .right {
@@ -62,16 +55,10 @@ html, body{
 	
 }
 
-
-
-
-
-
 .sidenav {
 	margin-top:1em;
 	margin-bottom:1em;
 }
-
 
 .mobilenavcontainer{
 	display: none;
@@ -100,6 +87,16 @@ html, body{
 	border-top-right-radius: 1em;
 }
 
+.main{
+	background-color: #FFFFFF;
+	color:#1e1e1e ;
+	max-width:30em;
+	margin:auto;
+	margin-left:1.5em;
+	margin-top:1em;
+	margin-right:1.5em;
+}
+
 
 @media screen and (max-width: 45.1em) {
 	.left{
@@ -118,16 +115,9 @@ html, body{
 	.main{
 		margin-left:1em;
 		margin-right:1em;
-		margin-bottom: 2em;
+		margin-bottom:2em;
 	}
-
-	/*#content {
-		height:calc(100% - var(--bottomfooterheight));
-	}*/
-
 }
-
-
 
 .sidenav a {
   padding: 3px 2em 3px 2em;
@@ -150,21 +140,6 @@ html, body{
 	
 }
 
-
-
-
-.main{
-	background-color: #FFFFFF;
-	color:#1e1e1e ;
-	max-width:30em;
-	margin:auto;
-	margin-left:1.5em;
-	margin-top:1em;
-	margin-right:1.5em;
-	
-	
-}
-
 .footercontainer{
 	background-color: #121212;
 	color: #c9c9c9;
@@ -172,9 +147,7 @@ html, body{
 	overflow: auto;
 	white-space: nowrap;
 	-webkit-overflow-scrolling: touch;
-	
 	overflow-y:hidden;
-	
 }
 
 .navfooter{
@@ -185,7 +158,6 @@ html, body{
 }
 
 .navfooter .navlinks{
-	
   	text-decoration: none;
   	font-size: 12px;
   	color: #c9c9c9;
@@ -193,10 +165,7 @@ html, body{
 	font-family: 'Roboto', sans-serif;
 	padding-left: 5px;
 	padding-right: 5px;  
-	
-	
 }
-
 
 .navfooter .sidenavdivider{
 	border-right: 2px solid #666666;
@@ -207,7 +176,13 @@ html, body{
 }
 
 
+@media screen and (max-width: 45em) {
+	.main{
+		margin-left:1em;
+		margin-right:1em;
+	}
 
+}
 
 h2 {
     text-transform: uppercase;
@@ -234,7 +209,6 @@ p {
 	text-indent: 1em;
 	line-height: 125%;
 }
-
 
 ul {
     position: relative;
@@ -323,11 +297,7 @@ video {
 	font-style:italic;
 	margin-bottom: 1em;
 	text-align:left;
-	
-	
 }
-
-
 
 .quote {
 	font-style: italic;
