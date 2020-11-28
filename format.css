@@ -139,8 +139,7 @@ html, body{
 }
 
 .navfooter{
-	padding-top:0.3em;
-	padding-bottom:0.3em;
+	vertical-align: middle;
 	width:100%;
 }
 
