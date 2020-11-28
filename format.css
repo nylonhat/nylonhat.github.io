@@ -87,6 +87,7 @@ html, body{
 
 @media screen and (max-width: 45.1em) {
 	.left{
+		display: none;
 		height: 20em;
 		position: fixed;
 		bottom: 2em;
@@ -108,6 +109,12 @@ html, body{
 		height:calc(100% - var(--bottomfooterheight));
 	}*/
 
+}
+
+@media screen and (min-width: 45.1em) {
+	.left{
+		display: auto;
+	}
 }
 
 .sidenav a {
