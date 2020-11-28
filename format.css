@@ -154,6 +154,11 @@ html, body{
 	padding-right: 4px;
 	
 }
+.navfooter .sidenavdivider{
+	border-right: 1px solid #666666;
+	margin-left:4px;
+	margin-right:4px;
+}
 
 
 @media screen and (max-width: 45em) {
