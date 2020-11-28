@@ -158,6 +158,7 @@ html, body{
 
 
 .navfooter .navlinks::after{
+	margin-right: 5px;
 	content: "•";
 	color: #666666;
 }
