@@ -80,8 +80,8 @@ html, body{
 	width: var(--leftcolwidth);
 	height: 0.5em;
 	background-color: #121212;
-	border-top-left-radius: 3px;
-	border-top-right-radius: 3px;
+	border-top-left-radius: 0.5em;
+	border-top-right-radius: 0.5em;
 }
 
 
