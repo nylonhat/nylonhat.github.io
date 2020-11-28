@@ -141,8 +141,8 @@ html, body{
 .navfooter{
 	height:100%;
 	padding-top: 0.4em;
-	margin-left:10px;
-	margin-right:10px;
+	padding-left:0.4em;
+	padding-right:0.4em;
 }
 
 .navfooter a{
@@ -159,7 +159,7 @@ html, body{
 .navfooter .sidenavdivider{
 	border-right: 2px solid #666666;
 	margin-left:0px;
-	margin-right:0px;
+	margin-right:5px;
 }
 
 
