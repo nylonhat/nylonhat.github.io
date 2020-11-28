@@ -127,7 +127,7 @@ html, body{
 }
 
 .navfooter{
-	background-color: #616161;
+	background-color: #121212;
 	color: #c9c9c9;
 	height: var(--bottomfooterheight);
 	overflow: auto;
@@ -148,7 +148,7 @@ html, body{
 	border-radius: 3px;
 	padding-left: 3px;
 	padding-right: 3px;
-	padding-top: 0.7em;
+	padding-top: 1em;
 }
 
 
