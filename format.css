@@ -72,6 +72,17 @@ html, body{
 	margin-bottom:1em;
 }
 
+
+.mobilenavcontainer{
+	display: none;
+	height: 20em;
+	position: fixed;
+	bottom: 2em;
+	right: calc(50% - calc(var(--leftcolwidth)/2));
+	width: var(--leftcolwidth);
+	border-radius: 5px;
+}
+
 .navbutton{
 	display: none;
 	position:fixed;
@@ -88,12 +99,6 @@ html, body{
 @media screen and (max-width: 45.1em) {
 	.left{
 		display: none;
-		height: 20em;
-		position: fixed;
-		bottom: 2em;
-  		right: calc(50% - calc(var(--leftcolwidth)/2));
-		width: var(--leftcolwidth);
-		border-radius: 5px;
 	}
 
 	.right{
