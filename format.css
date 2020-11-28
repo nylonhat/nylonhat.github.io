@@ -79,7 +79,7 @@ html, body{
 	.left{
 		height: 20em;
 		position: fixed;
-		bottom: 5em;
+		bottom: 2em;
   		right: calc(50% - calc(var(--leftcolwidth)/2));
 		width: var(--leftcolwidth);
 		border-radius: 5px;
