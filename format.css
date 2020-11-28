@@ -126,7 +126,7 @@ html, body{
 	
 }
 
-.navfooter{
+.footercontainer{
 	background-color: #121212;
 	color: #c9c9c9;
 	height: var(--bottomfooterheight);
@@ -135,8 +135,11 @@ html, body{
 	-webkit-overflow-scrolling: touch;
 	
 	overflow-y:hidden;
-	padding-top: 1em;
 	
+}
+
+.navfooter{
+	padding-top:0.7em;
 }
 
 .navfooter a{
@@ -146,7 +149,6 @@ html, body{
   	color: #c9c9c9;
   	display: inline;
   	font-family: 'Roboto', sans-serif;
-	border-radius: 3px;
 	padding-left: 3px;
 	padding-right: 3px;
 	
