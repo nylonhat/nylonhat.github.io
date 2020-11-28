@@ -24,7 +24,11 @@ time, mark, audio, video {
 	--bottomfooterheight: 3em;
 }
 
-
+html, body{
+	
+	overflow: hidden;
+	margin: 0;
+}
 
 #content {
 	height: 100%;
