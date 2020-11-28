@@ -63,6 +63,7 @@ html, body{
 .mobilenavcontainer{
 	display: block;
 	height: 0em;
+	max-height: 90vh;
 	position: fixed;
 	bottom: 2em;
 	right: calc(50% - calc(var(--leftcolwidth)/2));
