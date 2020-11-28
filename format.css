@@ -156,7 +156,7 @@ html, body{
 }
 .navfooter .sidenavdivider{
 	border-right: 2px solid #666666;
-	margin-left:4px;
+	margin-left:0px;
 	margin-right:4px;
 }
 
