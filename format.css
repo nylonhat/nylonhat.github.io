@@ -158,8 +158,10 @@ html, body{
 }
 .navfooter .sidenavdivider{
 	border-right: 2px solid #666666;
-	margin-left:0px;
+	margin-left:5px;
 	margin-right:5px;
+	padding-left: 0px;
+	padding-right: 0px;
 }
 
 
