@@ -78,7 +78,7 @@ html, body{
 	bottom: 0.5em;
 	right: calc(50% - calc(var(--leftcolwidth)/2));
 	width: var(--leftcolwidth);
-	height: 1em;
+	height: 0.7em;
 	background-color: #121212;
 	border-top-left-radius: 1em;
 	border-top-right-radius: 1em;
