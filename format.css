@@ -116,18 +116,7 @@ html, body{
 
 }
 
-@media screen and (min-width: 45.1em) {
-	.left{
-		float: left;
-		width: var(--leftcolwidth);
-		height: 100%;
-		overflow: auto;
-		box-sizing: border-box;
-		background-color: #121212;
-		-webkit-overflow-scrolling: touch;
-		display: block;
-	}
-}
+
 
 .sidenav a {
   padding: 3px 2em 3px 2em;
