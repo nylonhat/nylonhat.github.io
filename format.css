@@ -80,9 +80,9 @@ html, body{
 		height: 20em;
 		position: fixed;
 		bottom: 5em;
-  		right: 50%;
-		  width: var(--leftcolwidth);
-		  border-radius: 5px;
+  		right: calc(50% - calc(var(--leftcolwidth)/2));
+		width: var(--leftcolwidth);
+		border-radius: 5px;
 	}
 
 	.right{
