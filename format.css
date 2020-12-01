@@ -61,7 +61,7 @@ html, body{
 }
 
 .mobilenavcontainer{
-	display: block;
+	display: none;
 	height: 0em;
 	max-height: calc(90vh - 2em);
 	position: fixed;
@@ -123,6 +123,10 @@ html, body{
 		margin-left:1em;
 		margin-right:1em;
 		margin-bottom:2em;
+	}
+
+	.mobilenavcontainer{
+		display: block;
 	}
 }
 
