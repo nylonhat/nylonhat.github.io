@@ -1,151 +1,200 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <title>Sample title</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home Page</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="format.css">
-    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+	<!-- Style Sheets -->
+	<link rel="stylesheet" href="format.css">
 
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+	<!-- External Script Files -->
 	<script src="scripts.js"></script>
-    <script src="jquery-3.5.1.min.js"></script>
-
-
+	<script src="jquery-3.5.1.min.js"></script>
 
 </head>
+
 <body>
+	<div class="page-container">
 
-<div id = "content">
-	<div class="left">
-		<div class="sidenav">
+		<!-- Side panel for side navigation -->
+		<div class="left-panel">
 
-		</div>
+			<!-- Desktop navigation menu -->
+			<div class="nav-menu"></div>
 
-		<script>
-			$(function(){
-				$(".sidenav").load("sidenav.html #sidenavtemplate")
-			});
-		</script>
+			<!-- Load navigation menu from file to .nav-menu -->
+			<script>
+				$(function () {
+					$(".nav-menu").load("sidenav.html #sidenavtemplate")
+				});
+			</script>
 
+		</div> <!-- End of left-panel -->
+
+		<!-- Panel for main content -->
+		<div class="right-panel">
+
+			<!-- Main text content -->
+			<div class="main-content">
+				<h2>Ryu SFV Season 5 Guide True</h2>
+
+				<h3>NEUTRAL</h3>
+
+				<p>
+					Praesent accumsan elit lectus. In nunc ante, efficitur id dui quis, pharetra tempus diam. Donec
+					posuere vehicula sapien eget fermentum. Curabitur pretium interdum augue, sed ultrices orci rhoncus
+					ac. Donec id lacus at magna imperdiet ultrices non eu ipsum. Donec libero felis, consectetur eget
+					leo eu, tempor fermentum neque. Nunc faucibus ac eros tempor elementum. Quisque ornare facilisis
+					massa. Aliquam a odio at nisi tincidunt mollis ac eget eros. Mauris vitae semper odio. Pellentesque
+					in lacus id libero elementum sollicitudin sed id diam.
+				</p>
+
+				<p class="quote">
+					"Fighting games are such a great thing. James Chen stop crying, your making me cry; congratulations
+					to Punk for his outstanding performance" -Tokido
+				</p>
+
+				<p>
+					Sed neque lacus, tempor id ligula eget, bibendum pulvinar neque. Duis mollis sagittis metus, eget
+					convallis neque dapibus quis. Vestibulum venenatis massa a purus ornare finibus. Vivamus porta
+					ultricies pellentesque. Donec finibus est elit, non hendrerit urna aliquet nec. Suspendisse sagittis
+					dui eu eros egestas tristique. Etiam porta dui vel odio pellentesque, sit amet sollicitudin ligula
+					pretium. Nullam at dapibus ipsum. Quisque luctus fringilla diam sed semper.
+				</p>
+
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim, ipsum facilisis volutpat
+					fermentum, neque urna semper nulla, convallis interdum ex diam sed dui. Aenean finibus lectus
+					rhoncus metus scelerisque convallis. Sed vestibulum consectetur cursus. Duis vel vulputate neque,
+					quis suscipit risus. Pellentesque mauris felis, auctor vitae enim ut, congue pellentesque magna.
+					Duis feugiat ornare ex ut aliquet. Aenean bibendum ligula ut placerat volutpat. Ut sed mauris
+					accumsan, imperdiet nisl nec, efficitur turpis. Mauris egestas in odio at auctor. Aenean accumsan
+					facilisis diam, et tincidunt sapien gravida id. Nulla at lectus nisi.
+				</p>
+
+
+				<video playsinline autoplay muted loop>
+					<source src="videosample.mp4" type="video/mp4">
+				</video>
+
+				<p class="videotext">
+					Ryu's dragon punch misses the opponent at certain ranges. Make sure to use the correct anti-air
+					depending on the distance between you and your opponent.
+				</p>
+
+
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim, ipsum facilisis volutpat
+					fermentum, neque urna semper nulla, convallis interdum ex diam sed dui. Aenean finibus lectus
+					rhoncus metus scelerisque convallis. Sed vestibulum consectetur cursus. Duis vel vulputate neque,
+					quis suscipit risus. Pellentesque mauris felis, auctor vitae enim ut, congue pellentesque magna.
+					Duis feugiat ornare ex ut aliquet. Aenean bibendum ligula ut placerat volutpat. Ut sed mauris
+					accumsan, imperdiet nisl nec, efficitur turpis. Mauris egestas in odio at auctor. Aenean accumsan
+					facilisis diam, et tincidunt sapien gravida id. Nulla at lectus nisi.
+				</p>
+
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim, ipsum facilisis volutpat
+					fermentum, neque urna semper nulla, convallis interdum ex diam sed dui. Aenean finibus lectus
+					rhoncus metus scelerisque convallis. Sed vestibulum consectetur cursus. Duis vel vulputate neque,
+					quis suscipit risus. Pellentesque mauris felis, auctor vitae enim ut, congue pellentesque magna.
+					Duis feugiat ornare ex ut aliquet. Aenean bibendum ligula ut placerat volutpat. Ut sed mauris
+					accumsan, imperdiet nisl nec, efficitur turpis. Mauris egestas in odio at auctor. Aenean accumsan
+					facilisis diam, et tincidunt sapien gravida id. Nulla at lectus nisi.
+				</p>
+
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim, ipsum facilisis volutpat
+					fermentum, neque urna semper nulla, convallis interdum ex diam sed dui. Aenean finibus lectus
+					rhoncus metus scelerisque convallis. Sed vestibulum consectetur cursus. Duis vel vulputate neque,
+					quis suscipit risus. Pellentesque mauris felis, auctor vitae enim ut, congue pellentesque magna.
+					Duis feugiat ornare ex ut aliquet. Aenean bibendum ligula ut placerat volutpat. Ut sed mauris
+					accumsan, imperdiet nisl nec, efficitur turpis. Mauris egestas in odio at auctor. Aenean accumsan
+					facilisis diam, et tincidunt sapien gravida id. Nulla at lectus nisi.
+				</p>
+
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim, ipsum facilisis volutpat
+					fermentum, neque urna semper nulla, convallis interdum ex diam sed dui. Aenean finibus lectus
+					rhoncus metus scelerisque convallis. Sed vestibulum consectetur cursus. Duis vel vulputate neque,
+					quis suscipit risus. Pellentesque mauris felis, auctor vitae enim ut, congue pellentesque magna.
+					Duis feugiat ornare ex ut aliquet. Aenean bibendum ligula ut placerat volutpat. Ut sed mauris
+					accumsan, imperdiet nisl nec, efficitur turpis. Mauris egestas in odio at auctor. Aenean accumsan
+					facilisis diam, et tincidunt sapien gravida id. Nulla at lectus nisi.
+				</p>
+
+				<h3>ADVANCED STRINGS</h3>
+
+				<div>
+					<p class="spanleft">[240|222] Overhead punish
+						<span class="spanright vbar">
+							V-trigger
+						</span>
+						<span class="spanright">&nbsp;+&nbsp;</span>
+						<span class="spanright exbar">
+							1 Bar
+						</span>
+					</p>
+
+					<p class="codeblock">
+						cr.lp, st.mp, cr.mk xx SBK
+
+					</p>
+				</div>
+
+				<div>
+					<p class="spanleft">[240|222] Overhead punish
+						<span class="spanright vbar">
+							V-trigger
+						</span>
+						<span class="spanright">&nbsp;+&nbsp;</span>
+						<span class="spanright exbar">
+							1 Bar
+						</span>
+					</p>
+
+					<p class="codeblock">
+						cr.lk, cr.lp xx EX Legs
+
+					</p>
+				</div>
+
+
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim, ipsum facilisis volutpat
+					fermentum, neque urna semper nulla, convallis interdum ex diam sed dui. Aenean finibus lectus
+					rhoncus metus scelerisque convallis. Sed vestibulum consectetur cursus. Duis vel vulputate neque,
+					quis suscipit risus. Pellentesque mauris felis, auctor vitae enim ut, congue pellentesque magna.
+					Duis feugiat ornare ex ut aliquet. Aenean bibendum ligula ut placerat volutpat. Ut sed mauris
+					accumsan, imperdiet nisl nec, efficitur turpis. Mauris egestas in odio at auctor. Aenean accumsan
+					facilisis diam, et tincidunt sapien gravida id. Nulla at lectus nisi.
+				</p>
+
+
+
+			</div> <!-- End of main-content -->
+
+		</div> <!-- End of right-panel -->
+
+	</div> <!-- End of page-containter -->
+
+	<!-- Mobile navigation button -->
+	<div class="nav-button" onclick="toggleDisplay('mobile-nav');"></div>
+
+	<!-- Fonts -->
+	<div class="mobilenavcontainer" id="mobile-nav">
+
+		<!-- Loaded nav menu from file -->
+		<div class="nav-menu"></div>
 	</div>
-	
-	
 
-
-	<div class = "right">
-		
-		<div class="main">
-			<h2>Ryu SFV Season 5 Guide True</h2>
-
-			<h3>NEUTRAL</h3>
-			
-			<p>
-				Praesent accumsan elit lectus. In nunc ante, efficitur id dui quis, pharetra tempus diam. Donec posuere vehicula sapien eget fermentum. Curabitur pretium interdum augue, sed ultrices orci rhoncus ac. Donec id lacus at magna imperdiet ultrices non eu ipsum. Donec libero felis, consectetur eget leo eu, tempor fermentum neque. Nunc faucibus ac eros tempor elementum. Quisque ornare facilisis massa. Aliquam a odio at nisi tincidunt mollis ac eget eros. Mauris vitae semper odio. Pellentesque in lacus id libero elementum sollicitudin sed id diam.
-			</p>
-
-			<p class="quote">
-				"Fighting games are such a great thing. James Chen stop crying, your making me cry; congratulations to Punk for his outstanding performance" -Tokido
-			</p>
-			
-			<p>
-				Sed neque lacus, tempor id ligula eget, bibendum pulvinar neque. Duis mollis sagittis metus, eget convallis neque dapibus quis. Vestibulum venenatis massa a purus ornare finibus. Vivamus porta ultricies pellentesque. Donec finibus est elit, non hendrerit urna aliquet nec. Suspendisse sagittis dui eu eros egestas tristique. Etiam porta dui vel odio pellentesque, sit amet sollicitudin ligula pretium. Nullam at dapibus ipsum. Quisque luctus fringilla diam sed semper.
-			</p>
-			
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim, ipsum facilisis volutpat fermentum, neque urna semper nulla, convallis interdum ex diam sed dui. Aenean finibus lectus rhoncus metus scelerisque convallis. Sed vestibulum consectetur cursus. Duis vel vulputate neque, quis suscipit risus. Pellentesque mauris felis, auctor vitae enim ut, congue pellentesque magna. Duis feugiat ornare ex ut aliquet. Aenean bibendum ligula ut placerat volutpat. Ut sed mauris accumsan, imperdiet nisl nec, efficitur turpis. Mauris egestas in odio at auctor. Aenean accumsan facilisis diam, et tincidunt sapien gravida id. Nulla at lectus nisi.
-			</p>
-
-				
-			<video playsinline autoplay muted loop>
-				<source src="videosample.mp4" type="video/mp4">
-			</video>
-
-			<p class="videotext">
-				Ryu's dragon punch misses the opponent at certain ranges. Make sure to use the correct anti-air depending on the distance between you and your opponent.
-			</p>
-			
-			
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim, ipsum facilisis volutpat fermentum, neque urna semper nulla, convallis interdum ex diam sed dui. Aenean finibus lectus rhoncus metus scelerisque convallis. Sed vestibulum consectetur cursus. Duis vel vulputate neque, quis suscipit risus. Pellentesque mauris felis, auctor vitae enim ut, congue pellentesque magna. Duis feugiat ornare ex ut aliquet. Aenean bibendum ligula ut placerat volutpat. Ut sed mauris accumsan, imperdiet nisl nec, efficitur turpis. Mauris egestas in odio at auctor. Aenean accumsan facilisis diam, et tincidunt sapien gravida id. Nulla at lectus nisi.
-			</p>
-			
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim, ipsum facilisis volutpat fermentum, neque urna semper nulla, convallis interdum ex diam sed dui. Aenean finibus lectus rhoncus metus scelerisque convallis. Sed vestibulum consectetur cursus. Duis vel vulputate neque, quis suscipit risus. Pellentesque mauris felis, auctor vitae enim ut, congue pellentesque magna. Duis feugiat ornare ex ut aliquet. Aenean bibendum ligula ut placerat volutpat. Ut sed mauris accumsan, imperdiet nisl nec, efficitur turpis. Mauris egestas in odio at auctor. Aenean accumsan facilisis diam, et tincidunt sapien gravida id. Nulla at lectus nisi.
-			</p>
-			
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim, ipsum facilisis volutpat fermentum, neque urna semper nulla, convallis interdum ex diam sed dui. Aenean finibus lectus rhoncus metus scelerisque convallis. Sed vestibulum consectetur cursus. Duis vel vulputate neque, quis suscipit risus. Pellentesque mauris felis, auctor vitae enim ut, congue pellentesque magna. Duis feugiat ornare ex ut aliquet. Aenean bibendum ligula ut placerat volutpat. Ut sed mauris accumsan, imperdiet nisl nec, efficitur turpis. Mauris egestas in odio at auctor. Aenean accumsan facilisis diam, et tincidunt sapien gravida id. Nulla at lectus nisi.
-			</p>
-			
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim, ipsum facilisis volutpat fermentum, neque urna semper nulla, convallis interdum ex diam sed dui. Aenean finibus lectus rhoncus metus scelerisque convallis. Sed vestibulum consectetur cursus. Duis vel vulputate neque, quis suscipit risus. Pellentesque mauris felis, auctor vitae enim ut, congue pellentesque magna. Duis feugiat ornare ex ut aliquet. Aenean bibendum ligula ut placerat volutpat. Ut sed mauris accumsan, imperdiet nisl nec, efficitur turpis. Mauris egestas in odio at auctor. Aenean accumsan facilisis diam, et tincidunt sapien gravida id. Nulla at lectus nisi.
-			</p>
-
-			<h3>ADVANCED STRINGS</h3>
-			
-			<div>
-				<p class="spanleft">[240|222] Overhead punish
-					<span class="spanright vbar">
-						V-trigger
-					</span>
-					<span class="spanright">&nbsp;+&nbsp;</span>
-					<span class="spanright exbar">
-						1 Bar
-					</span>
-				</p>
-
-				<p class="codeblock">
-					cr.lp, st.mp, cr.mk xx SBK
-			
-				</p>
-			</div>
-
-			<div>
-				<p class="spanleft">[240|222] Overhead punish
-					<span class="spanright vbar">
-						V-trigger
-					</span>
-					<span class="spanright">&nbsp;+&nbsp;</span>
-					<span class="spanright exbar">
-						1 Bar
-					</span>
-				</p>
-
-				<p class="codeblock">
-					cr.lk, cr.lp xx EX Legs
-			
-				</p>
-			</div>
-
-
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim, ipsum facilisis volutpat fermentum, neque urna semper nulla, convallis interdum ex diam sed dui. Aenean finibus lectus rhoncus metus scelerisque convallis. Sed vestibulum consectetur cursus. Duis vel vulputate neque, quis suscipit risus. Pellentesque mauris felis, auctor vitae enim ut, congue pellentesque magna. Duis feugiat ornare ex ut aliquet. Aenean bibendum ligula ut placerat volutpat. Ut sed mauris accumsan, imperdiet nisl nec, efficitur turpis. Mauris egestas in odio at auctor. Aenean accumsan facilisis diam, et tincidunt sapien gravida id. Nulla at lectus nisi.
-			</p>
-		
-
-
-		</div>
-		
-	</div>
-
-</div>
-
-<div class="navbutton" onclick="toggleDisplay('navigation');">
-
-<div class="mobilenavcontainer" id="navigation">
-	<div class="sidenav">
-
-	</div>
-
-	
-
-</div>
-
-	
 </body>
-
 
 </html>
