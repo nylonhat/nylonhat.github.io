@@ -147,7 +147,7 @@ html, body{
 
 .nav-menu .sidenavdivider{
 	border-radius: 0px;
-	border-bottom: 1px solid #666666;
+	border-top: 1px solid #666666;
 	margin: 7px 1.5em 7px 1.5em;
 	
 }
