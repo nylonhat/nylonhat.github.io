@@ -200,7 +200,8 @@ li {
 }
 
 table {
-    font-family: 'Crimson Text', serif;
+	font-family: 'Open Sans', sans-serif;
+	font-variant: tabular-nums;
     font-size: 16px;
     border-collapse: collapse;
     width: 100%;
