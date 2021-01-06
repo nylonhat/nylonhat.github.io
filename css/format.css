@@ -242,7 +242,8 @@ tr:nth-child(odd) {
 
 .spanleft {
 	text-indent: 0em;
-	font-family: 'Roboto mono', monospace;
+	font-family: 'Open Sans', sans-serif;
+	font-variant: tabular-nums;
 	font-size: 13px;
 	text-align:left;
 	margin-bottom: 2px;
@@ -251,7 +252,8 @@ tr:nth-child(odd) {
 
 .spanright {
 	text-indent: 0em;
-	font-family: 'Roboto mono', monospace;
+	font-family: 'Open Sans', sans-serif;
+	font-variant: tabular-nums;
 	font-size: 13px;
 	float:right;
 	margin-bottom: 0;
