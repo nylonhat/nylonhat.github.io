@@ -213,7 +213,9 @@ td, th {
 	border-left: 0px;
 	border-right: 0px;
     text-align: left;
-    padding: 0.5em;
+	padding: 0.5em;
+	padding-left: 2em;
+	padding-right: 2em;
 }
 
 td {
