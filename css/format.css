@@ -218,8 +218,9 @@ td, th {
 	padding-right: 1em;
 }
 
-td {
-	width: 50px;
+
+td:last-child {
+    width: 100%;
 }
 
 th {
