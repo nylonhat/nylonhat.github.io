@@ -228,8 +228,8 @@ td:last-child {
 th {
 	color: #c9c9c9;
 	background-color: #1e1e1e;
-    font-weight: 600;
-    border-bottom: 2px solid #aaaaaa;
+	font-weight: 600;
+	border: 0px;
 }
 
 tr:nth-child(even) {
