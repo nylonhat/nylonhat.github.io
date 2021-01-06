@@ -202,16 +202,18 @@ li {
 table {
 	font-family: 'Open Sans', sans-serif;
 	font-variant: tabular-nums;
-    font-size: 16px;
+    font-size: 14px;
     border-collapse: collapse;
     width: 100%;
     margin-bottom: 1em;
 }
 
 td, th {
-    border: 1px solid #aaaaaa;
+	border: 1px solid #aaaaaa;
+	border-left: 0px;
+	border-right: 0px;
     text-align: left;
-    padding: 16px;
+    padding: 14px;
 }
 
 th {
