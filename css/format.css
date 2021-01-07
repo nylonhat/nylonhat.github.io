@@ -162,6 +162,7 @@ html, body{
 
 .expandable-link-container a{
 	color: yellow;
+	text-indent: 5px;
 }
 
 h2 {
