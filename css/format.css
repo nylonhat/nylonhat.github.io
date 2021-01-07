@@ -278,10 +278,12 @@ tr:nth-child(odd) {
 }
 
 .dmgstun{
-	background-color: #f5f5f5f5;
+	background-color: #e0e0e0;
 	border-radius: 2px;
 	padding-left: 7px;
 	padding-right: 7px;
+	font-size: 10px;
+	font-weight:normal;
 
 }
 
