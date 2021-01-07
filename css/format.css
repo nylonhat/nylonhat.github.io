@@ -153,15 +153,15 @@ html, body{
 }
 
 .active-expandable-link{
-	padding: 3px 3em 3px 2em;
+	
 }
 
 .expandable-link-container{
-	display:block;
+	display:none;
 }
 
 .expandable-link-container a{
-	
+	padding: 3px 3em 3px 2em;
 }
 
 h2 {
