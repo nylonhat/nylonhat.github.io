@@ -162,7 +162,7 @@ html, body{
 
 .expandable-link-container a{
 	text-indent: 1em;
-	padding: 3px 2em 3px 0em;
+	padding: 3px 0em 3px 2em;
 }
 
 h2 {
