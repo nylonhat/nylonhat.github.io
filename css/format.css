@@ -247,7 +247,7 @@ tr:nth-child(odd) {
 	font-size: 13px;
 	text-align:left;
 	margin-bottom: 2px;
-	font-weight:bold;
+	font-weight:normal;
 }
 
 .spanright {
