@@ -283,7 +283,7 @@ tr:nth-child(odd) {
 	text-indent: 0em;
 	font-family: 'Lato', sans-serif;
 	font-variant: tabular-nums;
-	font-size: 8px;
+	font-size: 10px;
 	float:left;
 	margin-bottom: 0;
 	font-weight:normal;
@@ -292,6 +292,21 @@ tr:nth-child(odd) {
 	padding-left: 7px;
 	padding-right: 7px;
 	margin-right:8px;
+
+}
+
+.comboname{
+	text-indent: 0em;
+	font-family: 'Lato', sans-serif;
+	font-variant: tabular-nums;
+	font-size: 13px;
+	float:left;
+	margin-bottom: 0;
+	font-weight:600;
+	background-color: #e0e0e0;
+	border-radius: 2px;
+	padding-left: 7px;
+	padding-right: 7px;
 
 }
 
