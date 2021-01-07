@@ -259,6 +259,7 @@ tr:nth-child(odd) {
 	float:right;
 	margin-bottom: 0;
 	font-weight:normal;
+	margin-left: 1px;
 }
 
 .exbar {
@@ -284,6 +285,7 @@ tr:nth-child(odd) {
 	padding-right: 7px;
 	font-size: 10px;
 	font-weight:normal;
+	margin-right:2px;
 
 }
 
