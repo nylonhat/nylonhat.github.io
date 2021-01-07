@@ -152,6 +152,14 @@ html, body{
 	
 }
 
+.active-expandable-link{
+	background-color: green;
+}
+
+.expandable-link-container{
+	display:none;
+}
+
 h2 {
     text-transform: uppercase;
     font-weight: bold;
