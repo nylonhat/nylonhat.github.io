@@ -157,7 +157,7 @@ html, body{
 }
 
 .expandable-link-container{
-	display: none;
+	display:block;
 }
 
 h2 {
