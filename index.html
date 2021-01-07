@@ -33,7 +33,9 @@
 			<!-- Load navigation menu from file to .nav-menu -->
 			<script>
 				$(function () {
-					$(".nav-menu").load("sidenav.html #sidenavtemplate")
+					$(".nav-menu").load("sidenav.html #sidenavtemplate", function(){
+						initExpandableLinks();
+					})
 				});
 			</script>
 
