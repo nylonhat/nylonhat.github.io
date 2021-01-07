@@ -24,4 +24,5 @@ function initExpandableLinks(){
 			}
 		});
 	}
+	alert("expandable loaded");
 }
