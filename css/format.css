@@ -287,16 +287,11 @@ tr:nth-child(odd) {
 	float:left;
 	margin-bottom: 0;
 	font-weight:normal;
-	margin-left: 1px;
-
 	background-color: #e0e0e0;
 	border-radius: 2px;
 	padding-left: 7px;
 	padding-right: 7px;
-	font-size: 10px;
-	font-weight:normal;
-	margin-right:2px;
-	margin-bottom: 0px;
+	margin-right:8px;
 
 }
 
