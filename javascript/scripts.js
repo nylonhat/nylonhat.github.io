@@ -11,7 +11,7 @@ function toggleDisplay(ElementId) {
 
 
 function initExpandableLinks(){
-	var dropdown = document.getElementsByClassName("expandable-link");
+	var dropdown = document.getElementsByClassName("navlinks expandable-link");
 	var i;
 	for (i = 0; i < dropdown.length; i++) {
 		dropdown[i].addEventListener("click", function() {
@@ -24,5 +24,4 @@ function initExpandableLinks(){
 			}
 		});
 	}
-	alert("expandable loaded");
 }
