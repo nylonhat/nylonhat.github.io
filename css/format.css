@@ -248,7 +248,7 @@ tr:nth-child(odd) {
 	text-align:left;
 	margin-bottom: 2px;
 	font-weight:600;
-	display: inline-block;
+	display: inline;
 }
 
 .spanright {
