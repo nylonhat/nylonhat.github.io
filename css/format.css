@@ -294,7 +294,8 @@ tr:nth-child(odd) {
 	padding-right: 7px;
 	margin-right:8px;
 	padding-bottom: 7px;
-	
+	text-decoration: underline;
+	text-underline-position: under;
 
 }
 
