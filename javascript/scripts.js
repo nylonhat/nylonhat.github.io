@@ -11,8 +11,6 @@ function toggleDisplay(ElementId) {
 
 function toggleExpandableLink(){
 	this.classList.toggle("active-expandable-link");
-	alert("click");
-
 	var dropdownContent = this.nextElementSibling;
 	if (dropdownContent.style.display === "block") {
 		dropdownContent.style.display = "none";
@@ -24,8 +22,6 @@ function toggleExpandableLink(){
 
 function initExpandableLinks(){
 	var dropdown = document.getElementsByClassName("navlinks expandable-link");
-
-	alert(dropdown.length);
 	var i;
 	for (i = 0; i < dropdown.length; i++) {
 		dropdown[i].addEventListener("click", toggleExpandableLink);
