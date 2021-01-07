@@ -18,7 +18,6 @@ function initExpandableLinks(){
 	for (i = 0; i < dropdown.length; i++) {
 		dropdown[i].addEventListener("click", function(event) {
 			this.classList.toggle("active-expandable-link");
-			event.stopPropagation();
 			alert("click");
 
 			var dropdownContent = this.nextElementSibling;
