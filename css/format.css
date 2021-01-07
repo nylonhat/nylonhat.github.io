@@ -254,7 +254,7 @@ tr:nth-child(odd) {
 	text-indent: 0em;
 	font-family: 'Open Sans', sans-serif;
 	font-variant: tabular-nums;
-	font-size: 13px;
+	font-size: 10px;
 	float:right;
 	margin-bottom: 0;
 	font-weight:bold;
@@ -262,10 +262,12 @@ tr:nth-child(odd) {
 
 .exbar {
 	color: #467aff;
+	background-color: blueviolet;
 }
 
 .vbar {
 	color: #ff3e3e;
+	background-color: blueviolet;
 }
 
 video {
