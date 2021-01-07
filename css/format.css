@@ -249,7 +249,6 @@ tr:nth-child(odd) {
 	margin-bottom: 2px;
 	font-weight:600;
 	display: inline;
-	padding-bottom: 3px;
 }
 
 .spanright {
@@ -284,7 +283,7 @@ tr:nth-child(odd) {
 	text-indent: 0em;
 	font-family: 'Lato', sans-serif;
 	font-variant: tabular-nums;
-	font-size: 10px;
+	font-size: 8px;
 	float:left;
 	margin-bottom: 0;
 	font-weight:normal;
@@ -293,7 +292,6 @@ tr:nth-child(odd) {
 	padding-left: 7px;
 	padding-right: 7px;
 	margin-right:8px;
-	padding: 0;
 
 }
 
