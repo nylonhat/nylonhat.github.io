@@ -12,8 +12,8 @@ function toggleDisplay(ElementId) {
 
 function initExpandableLinks(){
 	var dropdown = document.getElementsByClassName("expandable-link");
-
-	for (let i = 0; i < dropdown.length; i++) {
+	var i;
+	for (i = 0; i < dropdown.length; i++) {
 		dropdown[i].addEventListener("click", function() {
 			this.classList.toggle("active-expandable-link");
 			var dropdownContent = this.nextElementSibling;
