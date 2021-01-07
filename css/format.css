@@ -161,7 +161,7 @@ html, body{
 }
 
 .expandable-link-container a{
-	padding: 3px 3em 3px 2em;
+	color: yellow;
 }
 
 h2 {
