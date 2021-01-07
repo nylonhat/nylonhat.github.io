@@ -263,11 +263,15 @@ tr:nth-child(odd) {
 .exbar {
 	color: #467aff;
 	background-color: blueviolet;
+	border-radius: 2px;
+	padding: 2px;
 }
 
 .vbar {
 	color: #ff3e3e;
 	background-color: blueviolet;
+	border-radius: 2px;
+	padding: 2px;
 }
 
 video {
