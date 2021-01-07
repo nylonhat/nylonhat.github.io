@@ -278,7 +278,7 @@ tr:nth-child(odd) {
 	padding-right: 7px;
 }
 
-.dmgstun{
+.spanleft .dmgstun{
 	background-color: #e0e0e0;
 	border-radius: 2px;
 	padding-left: 7px;
