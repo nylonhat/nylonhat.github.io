@@ -246,7 +246,7 @@ tr:nth-child(odd) {
 	font-variant: tabular-nums;
 	font-size: 13px;
 	text-align:left;
-	margin-bottom: 0.5em;
+	margin-bottom: 0.3em;
 	font-weight:600;
 	padding-bottom: 1px;
 }
