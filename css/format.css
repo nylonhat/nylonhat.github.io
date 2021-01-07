@@ -260,6 +260,7 @@ tr:nth-child(odd) {
 	margin-bottom: 0;
 	font-weight:normal;
 	margin-left: 2px;
+	display: inline;
 }
 
 .exbar {
