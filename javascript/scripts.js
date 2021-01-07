@@ -9,6 +9,18 @@ function toggleDisplay(ElementId) {
 	}
 }
 
+function toggleExpandableLink(){
+	this.classList.toggle("active-expandable-link");
+	alert("click");
+
+	var dropdownContent = this.nextElementSibling;
+	if (dropdownContent.style.display === "block") {
+		dropdownContent.style.display = "none";
+	} else {
+		dropdownContent.style.display = "block";
+	}
+}
+
 
 function initExpandableLinks(){
 	var dropdown = document.getElementsByClassName("navlinks expandable-link");
@@ -16,16 +28,6 @@ function initExpandableLinks(){
 	alert(dropdown.length);
 	var i;
 	for (i = 0; i < dropdown.length; i++) {
-		dropdown[i].addEventListener("click", function(event) {
-			this.classList.toggle("active-expandable-link");
-			alert("click");
-
-			var dropdownContent = this.nextElementSibling;
-			if (dropdownContent.style.display === "block") {
-				dropdownContent.style.display = "none";
-			} else {
-				dropdownContent.style.display = "block";
-			}
-		});
+		dropdown[i].addEventListener("click", toggleExpandableLink);
 	}
 }
