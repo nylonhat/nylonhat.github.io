@@ -249,6 +249,7 @@ tr:nth-child(odd) {
 	margin-bottom: 2px;
 	font-weight:600;
 	display: inline;
+	padding-bottom: 3px;
 }
 
 .spanright {
@@ -259,7 +260,7 @@ tr:nth-child(odd) {
 	float:right;
 	margin-bottom: 0;
 	font-weight:normal;
-	margin-left: 1px;
+	margin-left: 2px;
 }
 
 .exbar {
@@ -292,6 +293,7 @@ tr:nth-child(odd) {
 	padding-left: 7px;
 	padding-right: 7px;
 	margin-right:8px;
+	padding: 0;
 
 }
 
