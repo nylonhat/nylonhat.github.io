@@ -156,6 +156,10 @@ html, body{
 	background-color: green;
 }
 
+.active-expandable-link:hover{
+	background-color: purple;
+}
+
 .expandable-link-container{
 	display:block;
 }

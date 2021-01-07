@@ -10,12 +10,15 @@ function toggleDisplay(ElementId) {
 }
 
 function toggleExpandableLink(){
-	this.classList.toggle("active-expandable-link");
 	var dropdownContent = this.nextElementSibling;
-	if (dropdownContent.style.display === "block") {
-		dropdownContent.style.display = "none";
-	} else {
-		dropdownContent.style.display = "block";
+
+	if (dropdownContent.classList.contains("expandable-link-container")){
+		this.classList.toggle("active-expandable-link");
+		if (dropdownContent.style.display === "block") {
+			dropdownContent.style.display = "none";
+		} else {
+			dropdownContent.style.display = "block";
+		}
 	}
 }
 
