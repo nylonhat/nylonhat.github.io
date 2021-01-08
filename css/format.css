@@ -254,7 +254,7 @@ tr:nth-child(odd) {
 }
 
 .combo-container{
-	border-left: 5px solid #1e1e1e;
+	border-left: 4px solid #1e1e1e;
 }
 
 .spanleft {
@@ -364,6 +364,7 @@ video {
 	background-color: #f5f5f5;
 	padding: 0.5em;
 	border-radius: 2px;
+	border-bottom-left-radius: 0px;
 	padding-left: 0.7em;
 	font-weight: 500;
 }
