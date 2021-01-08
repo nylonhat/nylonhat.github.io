@@ -262,7 +262,6 @@ tr:nth-child(odd) {
 	margin-bottom: 0.18em;
 	font-weight:600;
 	padding-bottom: 1px;
-	border-left: 3px solid #1e1e1e;
 }
 
 .spanright {
@@ -310,6 +309,7 @@ tr:nth-child(odd) {
 	padding-bottom: 7px;
 	text-decoration: underline;
 	text-underline-position: under;
+	border-top: 2px solid #1e1e1e;
 
 }
 
