@@ -321,7 +321,7 @@ tr:nth-child(odd) {
 	text-indent: 0em;
 	font-family: 'Lato', sans-serif;
 	font-variant: tabular-nums;
-	font-size: 13px;
+	font-size: 12px;
 	float:left;
 	margin-bottom: 0;
 	font-weight:600;
@@ -358,7 +358,7 @@ video {
 
 .codeblock {
 	font-family: 'Roboto mono', monospace;
-	font-size: 13px;
+	font-size: 12px;
 	margin-bottom: 0.7em;
 	text-indent: 0;
 	background-color: #f5f5f5;
