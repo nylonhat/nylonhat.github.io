@@ -345,7 +345,10 @@ video {
 	border-left: 5px solid #1e1e1e;
 	padding-left: 1em;
 	text-indent: 0;
-	background-color: #f5f5f5f5;
+	background-color: #dddddd;
+	padding-right: 0.4em;
+	padding-top: 0.4em;
+	padding-bottom: 0.4em;
 }
 
 .codeblock {
