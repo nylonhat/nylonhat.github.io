@@ -97,7 +97,7 @@ html, body{
 .main-content{
 	background-color: #FFFFFF;
 	color:#1e1e1e ;
-	max-width:32em;
+	max-width:31em;
 	margin:auto;
 	margin-left:1.5em;
 	margin-top:1em;
@@ -188,7 +188,7 @@ p {
 	font-size: 18px;
 	margin-bottom: 0.5em;
 	text-indent: 1em;
-	line-height: 125%;
+	line-height: 130%;
 }
 
 ul {
