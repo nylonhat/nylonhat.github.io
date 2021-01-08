@@ -241,7 +241,7 @@ td:last-child {
 th {
 	color: #f5f5f5f5;
 	background-color: #1e1e1e;
-	font-weight: 600;
+	font-weight: normal;
 	border: 0px;
 }
 
