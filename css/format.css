@@ -96,7 +96,7 @@ html, body{
 
 .main-content{
 	background-color: #FFFFFF;
-	color:#1e1e1e ;
+	color:#393f41 ;
 	max-width:31em;
 	margin:auto;
 	margin-left:1.5em;
@@ -170,7 +170,7 @@ h2 {
     font-weight: bold;
     font-family: 'Lato', sans-serif;
     text-align: left;
-    font-size: 22px;
+    font-size: 25px;
     margin-bottom: 0.5em;
 }
 
@@ -218,7 +218,8 @@ table {
     font-size: 12px;
     border-collapse: collapse;
     width: 100%;
-    margin-bottom: 1em;
+	margin-bottom: 1em;
+	margin-top: 1em;
 }
 
 td, th {
