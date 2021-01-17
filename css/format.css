@@ -22,6 +22,7 @@ time, mark, audio, video {
 :root{
 	--leftcolwidth: 11em;
 	--bottomfooterheight: 3em;
+	--mainfontsize: 20px;
 }
 
 html, body{
@@ -102,7 +103,7 @@ html, body{
 	margin-left:1.5em;
 	margin-top:1em;
 	margin-right:1.5em;
-	font-size: 21px;
+	font-size: var(--mainfontsize);
 }
 
 
@@ -134,7 +135,7 @@ html, body{
 .nav-menu a {
   padding: 3px 2em 3px 2em;
   text-decoration: none;
-  font-size: 12px;
+  font-size: 14px;
   color: #c9c9c9;
   display: block;
   font-family: 'Roboto', sans-serif;
@@ -186,7 +187,7 @@ h3 {
 
 p {
 	font-family: 'Crimson Text', serif;
-	font-size: 21px;
+	font-size: var(--mainfontsize);
 	margin-bottom: 0.5em;
 	text-indent: 1em;
 	line-height: 130%;
