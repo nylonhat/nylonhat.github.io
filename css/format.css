@@ -98,7 +98,7 @@ html, body{
 .main-content{
 	background-color: #FFFFFF;
 	color:#393f41 ;
-	max-width:31em;
+	max-width:30em;
 	margin:auto;
 	margin-left:1.5em;
 	margin-top:1em;
@@ -135,7 +135,7 @@ html, body{
 .nav-menu a {
   padding: 3px 2em 3px 2em;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 13px;
   color: #c9c9c9;
   display: block;
   font-family: 'Roboto', sans-serif;
