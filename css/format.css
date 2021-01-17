@@ -52,6 +52,7 @@ html, body{
 	box-sizing: border-box;
 	overflow-y:scroll;
 	-webkit-overflow-scrolling: touch;
+	font-size: 20px;
 	
 }
 
