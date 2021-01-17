@@ -177,7 +177,7 @@ h2 {
 h3 {
     text-transform: uppercase;
     font-family: 'Crimson Text', serif;
-    font-size: 18px;
+    font-size: 22px;
     margin-bottom: 0.5em;
     border-bottom: 1px solid #1e1e1e;
     font-weight: 600;
@@ -185,7 +185,7 @@ h3 {
 
 p {
 	font-family: 'Crimson Text', serif;
-	font-size: 18px;
+	font-size: 20px;
 	margin-bottom: 0.5em;
 	text-indent: 1em;
 	line-height: 130%;
