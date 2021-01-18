@@ -107,7 +107,7 @@ html, body{
 }
 
 
-@media screen and (max-width: 48em) {
+@media screen and (max-width: 47em) {
 	.left-panel{
 		display: none;
 	}
