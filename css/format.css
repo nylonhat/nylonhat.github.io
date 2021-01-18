@@ -99,9 +99,9 @@ html, body{
 	background-color: #FFFFFF;
 	color:#393f41 ;
 	margin:auto;
-	margin-left:1.5em;
+	margin-left:1.4em;
 	margin-top:1em;
-	margin-right:1.5em;
+	margin-right:1.4em;
 	font-size: var(--mainfontsize);
 	max-width:27em;
 }
