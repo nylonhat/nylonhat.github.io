@@ -38,7 +38,7 @@ function createSectionLinks(){
 	var i;
 	for (i = 0; i< spyScrollSections.length; i++){
 		let sectionLink = document.createElement('a');
-		sectionLink.href = "#" + spyScrollSection[i].innerHTML;
+		sectionLink.href = "#" + spyScrollSections[i].innerHTML;
 		sectionLink.setAttribute("class", "navlinks");
 
 		var j;
