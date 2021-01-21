@@ -34,6 +34,8 @@
 			<script>
 				$(function () {
 					$(".nav-menu").load("sidenav.html #sidenavtemplate", function(){
+						createSectionLinks();
+
 						initExpandableLinks();
 					})
 				});

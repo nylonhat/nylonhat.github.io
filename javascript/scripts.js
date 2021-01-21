@@ -30,3 +30,18 @@ function initExpandableLinks(){
 		dropdown[i].addEventListener("click", toggleExpandableLink);
 	}
 }
+
+
+function createSectionLinks(){
+	var pageSections = document.getElementsByClassName("current-page-section-links");
+	var spyScrollSections = document.getElementsByClassName("spyscroll-section");
+	spyScrollSections.array.forEach(spyScrollSection => {
+		let sectionLink = document.createElement('a');
+		sectionLink.href = "#" + spyScrollSection.innerHTML;
+		sectionLink.setAttribute("class", "navlinks");
+		pageSections.array.forEach( pageSection => {
+			pageSection.appendChild(sectionLink);
+		});
+
+	});
+}
