@@ -43,7 +43,7 @@ function createSectionLinks(){
 
 		var j;
 		for (j = 0; j < pageSections.length; j++){
-			
+			console.log(pageSections[j]);
 			pageSections[j].appendChild(sectionLink);
 			console.log("child appended  " + i + j);
 		}
