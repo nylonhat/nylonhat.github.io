@@ -34,8 +34,6 @@
 			<script>
 				$(function () {
 					$(".nav-menu").load("sidenav.html #sidenavtemplate", function(){
-						createSectionLinks();
-
 						initExpandableLinks();
 					})
 				});
@@ -54,7 +52,9 @@
 			<!-- Load page content -->
 			<script>
 				$(function () {
-					$(".main-content").load("content/chunli-combos-content.html")
+					$(".main-content").load("content/chunli-combos-content.html", function(){
+						createSectionLinks();
+					})
 				});
 			</script>
 
