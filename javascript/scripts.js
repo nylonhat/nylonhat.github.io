@@ -37,19 +37,15 @@ function createSectionLinks(){
 	var spyScrollSections = document.getElementsByClassName("spyscroll-section");
 	var i;
 	for (i = 0; i< spyScrollSections.length; i++){
-		alert("test");
-	}
-	
-	spyScrollSections.array.forEach(spyScrollSection => {
-		alert("test");
 		let sectionLink = document.createElement('a');
-		sectionLink.href = "#" + spyScrollSection.innerHTML;
+		sectionLink.href = "#" + spyScrollSection[i].innerHTML;
 		sectionLink.setAttribute("class", "navlinks");
-		pageSections.array.forEach( pageSection => {
-			pageSection.appendChild(sectionLink);
-		});
 
-	});
+		var j;
+		for (j = 0; j < pageSections.length; j++){
+			pageSections[j].appendChild(sectionLink);
+		}
+	}
 
 	
 }
