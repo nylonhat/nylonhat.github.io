@@ -44,7 +44,7 @@ function createSectionLinks(){
 		var j;
 		for (j = 0; j < pageSections.length; j++){
 			pageSections[j].appendChild(sectionLink);
-			console.log("child appended");
+			console.log("child appended tets 2");
 		}
 	}
 
