@@ -30,14 +30,7 @@
 			<!-- Desktop navigation menu -->
 			<div class="nav-menu"></div>
 
-			<!-- Load navigation menu from file to .nav-menu -->
-			<script>
-				$(function () {
-					$(".nav-menu").load("sidenav.html #sidenavtemplate", function(){
-						initExpandableLinks();
-					})
-				});
-			</script>
+			
 
 		</div> <!-- End of left-panel -->
 
@@ -48,16 +41,6 @@
 			<div class="main-content">
 
 			</div> <!-- End of main-content -->
-
-			<!-- Load page content -->
-			<script>
-				$(function () {
-					$(".main-content").load("content/chunli-combos-content.html", function(){
-						createSectionLinks();
-					})
-				});
-			</script>
-
 
 		</div> <!-- End of right-panel -->
 
@@ -74,5 +57,21 @@
 	</div>
 
 </body>
+
+<!-- Load navigation menu from file to .nav-menu -->
+<script>
+	$(function () {
+		$(".nav-menu").load("sidenav.html #sidenavtemplate", function(){
+			$(function () {
+					$(".main-content").load("content/chunli-combos-content.html", function(){
+						createSectionLinks();
+						initExpandableLinks();
+					})
+			});
+			
+		})
+	});
+</script>
+
 
 </html>
