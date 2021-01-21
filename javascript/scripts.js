@@ -35,8 +35,9 @@ function initExpandableLinks(){
 function createSectionLinks(){
 	var pageSections = document.getElementsByClassName("current-page-section-links");
 	var spyScrollSections = document.getElementsByClassName("spyscroll-section");
-	alert(spyScrollSections.length);
+	
 	spyScrollSections.array.forEach(spyScrollSection => {
+		alert("test");
 		let sectionLink = document.createElement('a');
 		sectionLink.href = "#" + spyScrollSection.innerHTML;
 		sectionLink.setAttribute("class", "navlinks");
