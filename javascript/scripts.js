@@ -42,9 +42,9 @@ function createSectionLinks(){
 		sectionLink.setAttribute("class", "navlinks");
 
 		var j;
-		console.log(pageSections.length);
 		for (j = 0; j < pageSections.length; j++){
 			pageSections[j].appendChild(sectionLink);
+			console.log("child appended");
 		}
 	}
 
