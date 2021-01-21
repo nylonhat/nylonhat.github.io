@@ -35,6 +35,10 @@ function initExpandableLinks(){
 function createSectionLinks(){
 	var pageSections = document.getElementsByClassName("current-page-section-links");
 	var spyScrollSections = document.getElementsByClassName("spyscroll-section");
+
+	for (let i = 0; i< spyScrollSections.length; i++){
+		alert("test");
+	}
 	
 	spyScrollSections.array.forEach(spyScrollSection => {
 		alert("test");
