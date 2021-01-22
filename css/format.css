@@ -154,6 +154,10 @@ html, body{
 	
 }
 
+.nav-menu .navlink-title{
+	font-weight: bold;
+}
+
 .active-expandable-link{
 	
 }
