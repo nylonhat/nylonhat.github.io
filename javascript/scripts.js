@@ -51,5 +51,7 @@ function createSectionLinks(){
 		}
 	}
 
+	pageSections[0].appendChild(document.createElement('div'));
+	console.log("append test div");
 	
 }
