@@ -37,21 +37,19 @@ function createSectionLinks(){
 	var spyScrollSections = document.getElementsByClassName("spyscroll-section");
 	var i;
 	for (i = 0; i< spyScrollSections.length; i++){
-		var sectionLink = document.createElement('a');
-		sectionLink.href = "#" + spyScrollSections[i].innerHTML;
-		sectionLink.setAttribute("class", "navlinks");
-		sectionLink.innerHTML = spyScrollSections[i].innerHTML;
 
 		var j;
 		for (j = 0; j < pageSections.length; j++){
+			var sectionLink = document.createElement('a');
+			sectionLink.href = "#" + spyScrollSections[i].innerHTML;
+			sectionLink.setAttribute("class", "navlinks");
+			sectionLink.innerHTML = spyScrollSections[i].innerHTML;
+
 			pageSections[j].appendChild(sectionLink);
 			
 			console.log("child appended  " + i + j);
 			console.log(pageSections[j]);
 		}
 	}
-
-	pageSections[0].appendChild(document.createElement('div'));
-	console.log("append test div");
 	
 }
