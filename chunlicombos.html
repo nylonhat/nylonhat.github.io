@@ -58,18 +58,28 @@
 
 </body>
 
-<!-- Load navigation menu from file to .nav-menu -->
 <script>
 	$(function () {
+		//Create deferered instance for each load
+		var d1 = $.Deferred();
+		var d2 = $.Deferred();
+
+		//wait for both deferred instances to resolve before continuing
+		$.when(d1, d2).then(function(){
+			createSectionLinks();
+			initExpandableLinks();
+		});
+
+		//Load navigation menu from file to .nav-menu
 		$(".nav-menu").load("sidenav.html #sidenavtemplate", function(){
-			$(function () {
-					$(".main-content").load("content/chunli-combos-content.html", function(){
-						createSectionLinks();
-						initExpandableLinks();
-					})
-			});
-			
-		})
+			d1.resolve();
+		});
+
+		//Load main content form file to .main-content
+		$(".main-content").load("content/chunli-combos-content.html", function(){
+			d2.resolve();
+		});
+
 	});
 </script>
 
