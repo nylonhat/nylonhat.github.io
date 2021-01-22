@@ -43,7 +43,7 @@ function createSectionLinks(){
 		for (j = 0; j < pageSections.length; j++){
 			var sectionLink = document.createElement('a');
 			sectionLink.href = "#" + spyScrollSections[i].getAttribute("id");
-			sectionLink.setAttribute("class", "navlinks");
+			sectionLink.setAttribute("class", "navlinks spyscroll-link");
 			sectionLink.innerHTML = spyScrollSections[i].innerHTML;
 
 			pageSections[j].appendChild(sectionLink);
@@ -53,4 +53,16 @@ function createSectionLinks(){
 		}
 	}
 	
+}
+
+
+function initSpyScroll(){
+	const spyScrollSections = document.querySelectorAll(".spyscroll-section");
+	const spyScrollLinks = document.querySelectorAll(".navlinks, .spyscroll-link");
+
+	console.log("spyScrollSection.length");
+	console.log(spyScrollSections.length);
+
+	console.log("spyScrollLinks.length");
+	console.log(spyScrollLinks.length);
 }
