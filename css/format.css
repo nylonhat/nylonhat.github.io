@@ -171,7 +171,7 @@ html, body{
 }
 
 .active-spyscroll-link{
-	color: orange;
+	background-color: orange;
 }
 
 h2 {
