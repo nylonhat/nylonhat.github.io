@@ -83,6 +83,7 @@ function initSpyScroll(){
 			removeAllActive();
 			currentActive = current;
 			makeActive(current);
+			makeActive(current + spyScrollSections.length);
 		}
 	});
 
