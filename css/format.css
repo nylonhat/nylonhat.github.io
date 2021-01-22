@@ -145,10 +145,6 @@ html, body{
 .nav-menu .navlinks:hover {
   color: #c9c9c9;
   background-color: #272727;
-  border-right: 3px solid #ececec;
-  border-top-left-radius: 0px;
-  border-bottom-left-radius: 0px;
-}
 
 .nav-menu .sidenavdivider{
 	border-radius: 0px;
@@ -171,7 +167,9 @@ html, body{
 }
 
 .active-spyscroll-link{
-	background-color: orange;
+	border-right: 3px solid #ececec;
+ 	border-top-right-radius: 0px;
+  	border-bottom-right-radius: 0px;
 }
 
 h2 {
