@@ -71,9 +71,10 @@ function initSpyScroll(){
 	scrollWindow.addEventListener("scroll", ()=> {
 		console.log("scrolling");
 
-		const current = spyScrollSections.length - [...spyScrollSections].reverse().findIndex((section)=> {
-			scrollWindow.scrollTop >= section.offsetTop - sectionMargin}) - 1
+		const current = spyScrollSections.length - [...spyScrollSections].reverse().findIndex((section)=> 
+			scrollWindow.scrollTop >= section.offsetTop - sectionMargin) - 1
 		
+		console.log("current section");
 		console.log(current);
 
 		if (current !== currentActive){
