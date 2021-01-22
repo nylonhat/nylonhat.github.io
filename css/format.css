@@ -145,6 +145,7 @@ html, body{
 .nav-menu .navlinks:hover {
   color: #c9c9c9;
   background-color: #272727;
+}
 
 .nav-menu .sidenavdivider{
 	border-radius: 0px;
