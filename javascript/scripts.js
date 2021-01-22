@@ -73,7 +73,8 @@ function initSpyScroll(){
 
 		const current = spyScrollSections.length - [...spyScrollSections].reverse().findIndex((section)=> {
 			scrollWindow.scrollTop >= section.offsetTop - sectionMargin}) - 1
-
+		
+		console.log(current);
 
 		if (current !== currentActive){
 			removeAllActive();
