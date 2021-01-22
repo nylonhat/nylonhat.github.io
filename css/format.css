@@ -170,6 +170,10 @@ html, body{
 	padding: 3px 0em 3px 2em;
 }
 
+.active-spyscroll-link{
+	color: orange;
+}
+
 h2 {
     text-transform: uppercase;
     font-weight: bold;

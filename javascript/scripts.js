@@ -60,9 +60,26 @@ function initSpyScroll(){
 	const spyScrollSections = document.querySelectorAll(".spyscroll-section");
 	const spyScrollLinks = document.querySelectorAll(".spyscroll-link");
 
-	console.log("spyScrollSection.length");
-	console.log(spyScrollSections.length);
+	const makeActive = (link) => spyScrollLinks[link].classList.add("active-spyscroll-link");
+ 	const removeActive = (link) => spyScrollLinks[link].classList.remove("active-spyscroll-link");
+  	const removeAllActive = () => [...Array(spyScrollSections.length).keys()].forEach((link) => removeActive(link));
+	
+	const sectionMargin = 0;
 
-	console.log("spyScrollLinks.length");
-	console.log(spyScrollLinks.length);
+	let currentActive = 0;
+
+	var scrollWindow = document.querySelector(".right-panel");
+
+	scrollWindow.addEventListener("scroll", ()=> {
+		const current = spyScrollSections.length - [...spyScrollSections].reverse().findIndex((section)=> {
+			scrollWindow.scrollTop >= section.offsetTop - sectionMargin}) - 1
+
+
+		if (current !== currentActive){
+			removeAllActive();
+			currentActive = current;
+			makeActive(current);
+		}
+	});
+
 }
