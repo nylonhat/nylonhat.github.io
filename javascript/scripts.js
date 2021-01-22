@@ -58,7 +58,7 @@ function createSectionLinks(){
 
 function initSpyScroll(){
 	const spyScrollSections = document.querySelectorAll(".spyscroll-section");
-	const spyScrollLinks = document.querySelectorAll(".navlinks, .spyscroll-link");
+	const spyScrollLinks = document.querySelectorAll(".spyscroll-link");
 
 	console.log("spyScrollSection.length");
 	console.log(spyScrollSections.length);
