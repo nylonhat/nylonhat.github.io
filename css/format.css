@@ -171,7 +171,8 @@ html, body{
 	border-right: 5px solid #ffffff;
  	border-top-right-radius: 0px !important;
 	border-bottom-right-radius: 0px !important;
-	font-weight: bold !important;
+	background-color: #272727;
+	
 }
 
 h2 {
