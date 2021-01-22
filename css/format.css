@@ -138,7 +138,7 @@ html, body{
   font-size: 13px;
   color: #c9c9c9;
   display: block;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   border-radius: 3px;
 }
 
@@ -185,7 +185,7 @@ html, body{
 h2 {
     text-transform: uppercase;
     font-weight: bold;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     text-align: left;
     font-size: 25px;
     margin-bottom: 0.5em;
@@ -231,7 +231,7 @@ li {
 }
 
 table {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Noto Sans', sans-serif;
 	font-variant: tabular-nums;
     font-size: 12px;
     border-collapse: collapse;
@@ -278,7 +278,7 @@ tr:nth-child(odd) {
 
 .spanleft {
 	text-indent: 0em;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Noto Sans', sans-serif;
 	font-variant: tabular-nums;
 	font-size: 13px;
 	text-align:left;
@@ -289,7 +289,7 @@ tr:nth-child(odd) {
 
 .spanright {
 	text-indent: 0em;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Noto Sans', sans-serif;
 	font-variant: tabular-nums;
 	font-size: 10px;
 	float:right;
@@ -317,7 +317,7 @@ tr:nth-child(odd) {
 .dmgstun{
 
 	text-indent: 0em;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Noto Sans', sans-serif;
 	font-variant: tabular-nums;
 	font-size: 10px;
 	float:left;
@@ -338,7 +338,7 @@ tr:nth-child(odd) {
 
 .comboname{
 	text-indent: 0em;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Noto Sans', sans-serif;
 	font-variant: tabular-nums;
 	font-size: 12px;
 	float:left;
@@ -357,7 +357,7 @@ video {
 
 .videotext{
 	text-indent: 0;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Noto Sans', sans-serif;
 	font-size: 12px;
 	font-style:italic;
 	margin-bottom: 1em;
