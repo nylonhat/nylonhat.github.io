@@ -37,11 +37,12 @@ function createSectionLinks(){
 	var spyScrollSections = document.getElementsByClassName("spyscroll-section");
 	var i;
 	for (i = 0; i< spyScrollSections.length; i++){
+		spyScrollSections[i].setAttribute("id", "spyScrollSection" + i);
 
 		var j;
 		for (j = 0; j < pageSections.length; j++){
 			var sectionLink = document.createElement('a');
-			sectionLink.href = "#" + spyScrollSections[i].innerHTML;
+			sectionLink.href = "#" + spyScrollSections[i].getAttribute("id");
 			sectionLink.setAttribute("class", "navlinks");
 			sectionLink.innerHTML = spyScrollSections[i].innerHTML;
 
