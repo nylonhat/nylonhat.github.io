@@ -168,9 +168,9 @@ html, body{
 }
 
 .active-spyscroll-link{
-	border-right: 3px solid #ececec;
- 	border-top-right-radius: 0px;
-  	border-bottom-right-radius: 0px;
+	border-right: 5px solid #ececec;
+ 	border-top-right-radius: 0px !important;
+  	border-bottom-right-radius: 0px !important;
 }
 
 h2 {
