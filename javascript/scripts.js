@@ -48,8 +48,6 @@ function createSectionLinks(){
 
 			pageSections[j].appendChild(sectionLink);
 			
-			console.log("child appended  " + i + j);
-			console.log(pageSections[j]);
 		}
 	}
 	
@@ -71,6 +69,8 @@ function initSpyScroll(){
 	var scrollWindow = document.querySelector(".right-panel");
 
 	scrollWindow.addEventListener("scroll", ()=> {
+		console.log("scrolling");
+
 		const current = spyScrollSections.length - [...spyScrollSections].reverse().findIndex((section)=> {
 			scrollWindow.scrollTop >= section.offsetTop - sectionMargin}) - 1
 
