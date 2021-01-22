@@ -159,6 +159,7 @@ html, body{
 	color: #e7e7e7 !important;
 	margin-bottom: 2px !important;
 	text-decoration: underline;
+	text-underline-position: under;
 }
 
 .active-expandable-link{
