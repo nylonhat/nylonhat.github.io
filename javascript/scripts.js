@@ -66,6 +66,8 @@ function initSpyScroll(){
 
 	let currentActive = 0;
 
+	makeActive(current);
+
 	var scrollWindow = document.querySelector(".right-panel");
 
 	scrollWindow.addEventListener("scroll", ()=> {
