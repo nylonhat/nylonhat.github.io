@@ -62,7 +62,7 @@ function initSpyScroll(){
  	const removeActive = (link) => spyScrollLinks[link].classList.remove("active-spyscroll-link");
   	const removeAllActive = () => [...Array(spyScrollSections.length).keys()].forEach((link) => removeActive(link));
 	
-	const sectionMargin = 0;
+	const sectionMargin = 20;
 
 	let currentActive = 0;
 
