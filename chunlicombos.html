@@ -61,23 +61,23 @@
 <script>
 	$(function () {
 		//Create deferered instance for each load
-		var d1 = $.Deferred();
-		var d2 = $.Deferred();
+		var navLoadDefer = $.Deferred();
+		var mainLoadDefer = $.Deferred();
 
 		//wait for both deferred instances to resolve before continuing
-		$.when(d1, d2).then(function(){
+		$.when(navLoadDefer, mainLoadDefer).then(function(){
 			createSectionLinks();
 			initExpandableLinks();
 		});
 
 		//Load navigation menu from file to .nav-menu
 		$(".nav-menu").load("sidenav.html #sidenavtemplate", function(){
-			d1.resolve();
+			navLoadDefer.resolve();
 		});
 
 		//Load main content form file to .main-content
 		$(".main-content").load("content/chunli-combos-content.html", function(){
-			d2.resolve();
+			mainLoadDefer.resolve();
 		});
 
 	});
