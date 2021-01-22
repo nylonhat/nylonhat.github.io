@@ -156,6 +156,8 @@ html, body{
 
 .nav-menu .navlink-title{
 	font-weight: bold;
+	color: #e7e7e7 !important;
+	margin-bottom: 3px !important;
 }
 
 .active-expandable-link{
