@@ -168,6 +168,7 @@ html, body{
 
 .expandable-link::after {
 	content: "▼";
+	float: right;
 }
 
 .expandable-link-container{
