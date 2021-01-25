@@ -166,15 +166,10 @@ html, body{
 }
 */
 
-.expandable-link::after {
-	content: "◢";
-	float: right;
-	margin-left: 5px;
-	
-}
+
 
 .expandable-link{
-	padding: 2px 5em 2px 1.7em !important;
+	color: #e7e7e7;
 }
 
 .expandable-link-container{
