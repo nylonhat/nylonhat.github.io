@@ -211,7 +211,7 @@ p {
 	font-family: 'Crimson Text', serif;
 	font-size: var(--mainfontsize);
 	margin-bottom: 1em;
-	text-indent: 1em;
+	text-indent: 0em;
 	line-height: 130%;
 }
 
@@ -234,7 +234,7 @@ li {
     font-family: 'Crimson Text', serif;
     font-size: var(--mainfontsize);
 	line-height: 130%;
-	margin-bottom: 0.1em;
+	margin-bottom: 0.3em;
 }
 
 table {
