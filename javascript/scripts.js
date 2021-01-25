@@ -89,3 +89,47 @@ function initSpyScroll(){
 	});
 
 }
+
+
+
+
+function initSpyScrollTest(){
+	const spyScrollSections = document.querySelectorAll(".spyscroll-section");
+	const navMenus = document.querySelectorAll(".nav-menu");
+	
+
+	const makeActive = (link, linkSet) => linkSet[link].classList.add("active-spyscroll-link");
+ 	const removeActive = (link, linkSet) => linkSet[link].classList.remove("active-spyscroll-link");
+  	const removeAllActive = (linkSet) => [...Array(linkSet.length).keys()].forEach((link) => removeActive(link));
+	
+	const sectionMargin = 200;
+
+	let currentActive = 0;
+
+	var scrollWindow = document.querySelector(".right-panel");
+
+	scrollWindow.addEventListener("scroll", ()=> {
+		console.log("scrolling");
+
+		const current = spyScrollSections.length - [...spyScrollSections].reverse().findIndex((section)=> 
+			scrollWindow.scrollTop >= section.offsetTop - sectionMargin) - 1
+		
+		console.log("current section");
+		console.log(current);
+
+		if (current !== currentActive){
+
+			let i;
+			for (i=0; i< navMenus.length; i++){
+				const spyScrollLinks = navMenus[i].querySelectorAll(".spyscroll-link");
+
+				removeAllActive(spyScrollLinks);
+				currentActive = current;
+				makeActive(current, spyScrollLinks);
+			}
+
+			
+		}
+	});
+
+}
