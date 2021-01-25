@@ -67,6 +67,7 @@ function initSpyScroll(){
 	let currentActive = 0;
 
 	makeActive(currentActive);
+	makeActive(currentActive + spyScrollSections.length);
 
 	var scrollWindow = document.querySelector(".right-panel");
 

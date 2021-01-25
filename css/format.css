@@ -162,9 +162,11 @@ html, body{
 	text-underline-position: under;
 }
 
+/*
 .active-expandable-link{
 	
 }
+*/
 
 .expandable-link-container{
 	display:none;
