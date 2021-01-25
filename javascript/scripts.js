@@ -56,45 +56,6 @@ function createSectionLinks(){
 
 function initSpyScroll(){
 	const spyScrollSections = document.querySelectorAll(".spyscroll-section");
-	const spyScrollLinks = document.querySelectorAll(".spyscroll-link");
-
-	const makeActive = (link) => spyScrollLinks[link].classList.add("active-spyscroll-link");
- 	const removeActive = (link) => spyScrollLinks[link].classList.remove("active-spyscroll-link");
-  	const removeAllActive = () => [...Array(spyScrollLinks.length).keys()].forEach((link) => removeActive(link));
-	
-	const sectionMargin = 200;
-
-	let currentActive = 0;
-
-	makeActive(currentActive);
-	makeActive(currentActive + spyScrollSections.length);
-
-	var scrollWindow = document.querySelector(".right-panel");
-
-	scrollWindow.addEventListener("scroll", ()=> {
-		console.log("scrolling");
-
-		const current = spyScrollSections.length - [...spyScrollSections].reverse().findIndex((section)=> 
-			scrollWindow.scrollTop >= section.offsetTop - sectionMargin) - 1
-		
-		console.log("current section");
-		console.log(current);
-
-		if (current !== currentActive){
-			removeAllActive();
-			currentActive = current;
-			makeActive(current);
-			makeActive(current + spyScrollSections.length);
-		}
-	});
-
-}
-
-
-
-
-function initSpyScrollTest(){
-	const spyScrollSections = document.querySelectorAll(".spyscroll-section");
 	const navMenus = document.getElementsByClassName("nav-menu");
 	
 
