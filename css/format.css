@@ -171,7 +171,7 @@ html, body{
 }
 
 .expandable-link-container a{
-	text-indent: 1em;
+	text-indent: 0.7em;
 	padding: 2px 0em 2px 2em;
 }
 
@@ -217,7 +217,7 @@ ul {
     margin-left: 0;
     margin-bottom: 0.5em;
     padding-left: 1.2em;
-    line-height: 125%;
+    line-height: 130%;
 }
 
 ul li:before {
@@ -228,8 +228,8 @@ ul li:before {
 
 li {
     font-family: 'Crimson Text', serif;
-    font-size: 18px;
-    line-height: 125%;
+    font-size: var(--mainfontsize);
+    line-height: 130%;
 }
 
 table {
