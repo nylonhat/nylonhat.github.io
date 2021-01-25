@@ -166,10 +166,9 @@ html, body{
 }
 */
 
-.expandable-link {
-	border-right: 5px solid #c9c9c9;
-	border-top-right-radius: 0px !important;
-	border-bottom-right-radius: 0px !important;
+.expandable-link::after {
+	content: "↧";
+	float: right;
 }
 
 .expandable-link-container{
