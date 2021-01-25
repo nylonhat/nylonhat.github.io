@@ -106,23 +106,28 @@ function initSpyScrollTest(){
 
 	let currentActive = 0;
 
+	let i;
+			for (i=0; i< navMenus.length; i++){
+				const spyScrollLinks = navMenus[i].querySelectorAll(".spyscroll-link");
+
+				removeAllActive(spyScrollLinks);
+				makeActive(currentActive, spyScrollLinks);
+			}
+
 	var scrollWindow = document.querySelector(".right-panel");
 
 	scrollWindow.addEventListener("scroll", ()=> {
 		console.log("scrolling");
 
 		const current = spyScrollSections.length - [...spyScrollSections].reverse().findIndex((section)=> 
-			scrollWindow.scrollTop >= section.offsetTop - sectionMargin) - 1
-		
-		console.log("current section");
-		console.log(current);
+			scrollWindow.scrollTop >= section.offsetTop - sectionMargin) - 1;
+
 
 		if (current !== currentActive){
 
 			let i;
 			for (i=0; i< navMenus.length; i++){
 				const spyScrollLinks = navMenus[i].querySelectorAll(".spyscroll-link");
-				console.log(spyScrollLinks);
 
 				removeAllActive(spyScrollLinks);
 				currentActive = current;
