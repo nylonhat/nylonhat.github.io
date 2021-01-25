@@ -95,7 +95,7 @@ function initSpyScroll(){
 
 function initSpyScrollTest(){
 	const spyScrollSections = document.querySelectorAll(".spyscroll-section");
-	const navMenus = document.querySelectorAll(".nav-menu");
+	const navMenus = document.getElementsByClassName("nav-menu");
 	
 
 	const makeActive = (link, linkSet) => linkSet[link].classList.add("active-spyscroll-link");
