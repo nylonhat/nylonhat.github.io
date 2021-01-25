@@ -167,8 +167,8 @@ html, body{
 */
 
 .expandable-link::after {
-	content: "▼";
-	direction: rtl;
+	content: "▾";
+	float: right;
 }
 
 .expandable-link-container{
