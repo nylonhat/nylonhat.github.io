@@ -32,17 +32,6 @@
 			<!-- Desktop navigation menu -->
 			<div class="nav-menu"></div>
 
-			<!-- Load navigation menu from file to .nav-menu -->
-			<script>
-				$(function () {
-					$(".nav-menu").load("sidenav.html #sidenavtemplate", function(){
-						initExpandableLinks();
-					})
-					
-				});
-
-				
-			</script>
 
 		</div> <!-- End of left-panel -->
 
@@ -53,15 +42,6 @@
 			<main class="main-content">
 
 			</main> <!-- End of main-content -->
-
-			
-
-			<!-- Load page content -->
-			<script>
-				$(function () {
-					$(".main-content").load("content/meatytiming-content.html")
-				});
-			</script>
 
 
 		</div> <!-- End of right-panel -->
@@ -82,5 +62,31 @@
 	
 
 </body>
+
+<script>
+	$(function () {
+		//Create deferered instance for each load
+		var navLoadDefer = $.Deferred();
+		var mainLoadDefer = $.Deferred();
+
+		//wait for both deferred instances to resolve before continuing
+		$.when(navLoadDefer, mainLoadDefer).then(function(){
+			createSectionLinks();
+			initExpandableLinks();
+			initSpyScroll();
+		});
+
+		//Load navigation menu from file to .nav-menu
+		$(".nav-menu").load("sidenav.html #sidenavtemplate", function(){
+			navLoadDefer.resolve();
+		});
+
+		//Load main content form file to .main-content
+		$(".main-content").load("content/meatytiming-content.html", function(){
+			mainLoadDefer.resolve();
+		});
+
+	});
+</script>
 
 </html>
