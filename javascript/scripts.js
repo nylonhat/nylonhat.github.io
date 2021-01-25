@@ -100,7 +100,7 @@ function initSpyScrollTest(){
 
 	const makeActive = (link, linkSet) => linkSet[link].classList.add("active-spyscroll-link");
  	const removeActive = (link, linkSet) => linkSet[link].classList.remove("active-spyscroll-link");
-  	const removeAllActive = (linkSet) => [...Array(linkSet.length).keys()].forEach((link) => removeActive(link));
+  	const removeAllActive = (linkSet) => [...Array(linkSet.length).keys()].forEach((link) => removeActive(link, linkSet));
 	
 	const sectionMargin = 200;
 
