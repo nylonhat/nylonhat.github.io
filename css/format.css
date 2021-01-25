@@ -233,7 +233,8 @@ ul li:before {
 li {
     font-family: 'Crimson Text', serif;
     font-size: var(--mainfontsize);
-    line-height: 130%;
+	line-height: 130%;
+	margin-bottom: 0.1em;
 }
 
 table {
