@@ -210,7 +210,7 @@ h3 {
 p {
 	font-family: 'Crimson Text', serif;
 	font-size: var(--mainfontsize);
-	margin-bottom: 0.5em;
+	margin-bottom: 1em;
 	text-indent: 1em;
 	line-height: 130%;
 }
