@@ -122,6 +122,7 @@ function initSpyScrollTest(){
 			let i;
 			for (i=0; i< navMenus.length; i++){
 				const spyScrollLinks = navMenus[i].querySelectorAll(".spyscroll-link");
+				console.log(spyScrollLinks);
 
 				removeAllActive(spyScrollLinks);
 				currentActive = current;
