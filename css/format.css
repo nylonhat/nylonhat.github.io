@@ -166,6 +166,10 @@ html, body{
 }
 */
 
+.expandable-link::after {
+	content: "▼";
+}
+
 .expandable-link-container{
 	display:none;
 }
