@@ -99,15 +99,15 @@ html, body{
 	background-color: #FFFFFF;
 	color:#393f41 ;
 	margin:auto;
-	margin-left:1.3em;
+	margin-left:1.5rem;
 	margin-top:1em;
-	margin-right:1.3em;
+	margin-right:1.5rem;
 	font-size: var(--mainfontsize);
 	max-width:33rem;
 }
 
 
-@media screen and (max-width: 49rem) {
+@media screen and (max-width: 47rem) {
 	.left-panel{
 		display: none;
 	}
