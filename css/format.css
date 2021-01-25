@@ -167,7 +167,7 @@ html, body{
 */
 
 .expandable-link::after {
-	content: "↧";
+	content: "◢";
 	float: right;
 }
 
