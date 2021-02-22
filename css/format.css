@@ -100,8 +100,9 @@ html, body{
 	color:#393f41 ;
 	margin:auto;
 	margin-left:1.5rem;
-	margin-top:1em;
+	margin-top:1rem;
 	margin-right:1.5rem;
+	margin-bottom: 1rem;
 	font-size: var(--mainfontsize);
 	max-width:33rem;
 }
@@ -409,4 +410,45 @@ video {
 
 form {
 	font-family: 'Noto Sans', sans-serif;
+	display:inline-block;
+	padding: 0em;
+	width: 100%;
+}
+
+label {
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 13px;
+}
+
+input[type=checkbox], input[type=radio] 
+{
+    vertical-align: middle;
+    position: relative;
+    bottom: 0.5px;
+	width:10px;
+}
+
+input{
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 13px;
+	margin: 3px;
+	width: 6em;
+}
+
+input.long_input{
+	font-family: 'Roboto mono', monospace;
+	width: 100%;
+}
+
+select{
+	font-family: 'Noto Sans', sans-serif;
+	margin: 3px;
+	width: 12em;
+	font-size: 13px;
+}
+
+textarea{
+	font-family: 'Noto Sans', sans-serif;
+	margin: 3px;
+	width: 100%;
 }

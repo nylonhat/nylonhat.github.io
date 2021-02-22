@@ -1,0 +1,49 @@
+<h3>Submit new combo</h3>
+<form action="/query" id="submit_combo">
+	<select name="character" id="character"></select><br>
+	<select name="combo_type" id="combo_type"></select><br>
+	<input class="long_input" required spellcheck="false" type="text" id="std_notation" name="std_notation"
+		placeholder="eg. cr.LP, st.MP, cr.MK xx HK SBK"><br>
+	<input class="long_input" required spellcheck="false" type="text" id="num_notation" name="num_notation"
+		placeholder="eg. 2LP, 5MP, 2MK xx [2]8HK"><br>
+	<input required type="number" id="damage" name="damage" min="0" max="2000" placeholder="Damage"><br>
+	<input required type="number" id="stun" name="stun" min="0" max="2000" placeholder="Stun"><br>
+
+	<input type="checkbox" id="able_stand" name="able_stand" value="1">
+	<label for="able_stand">Standing opponent</label><br>
+
+	<input type="checkbox" id="able_crouch" name="able_crouch" value="1">
+	<label for="able_crouch">Crouching opponent</label><br>
+
+	<input type="checkbox" id="able_vskill_1" name="able_vskill_1" value="1">
+	<label for="able_vskill_1">Able with V-Skill I</label><br>
+
+	<input type="checkbox" id="able_vskill_2" name="able_vskill_2" value="1">
+	<label for="able_vskill_2">Able with V-Skill II</label><br>
+
+	<input required type="number" id="ex_bar" name="ex_bar" min="0" max="3" placeholder="Ex bar"><br>
+
+	<select name="vtrigger" id="vtrigger"></select><br>
+
+	<input type="checkbox" id="vtrigger_cancel" name="vtrigger_cancel" value="1">
+	<label for="vtrigger_cancel">V-trigger cancel</label><br>
+
+	<input required type="number" id="startup" name="startup" min="0" max="50" placeholder="Startup"><br>
+
+	<select name="cc_move" id="cc_move"></select><br>
+
+	<input type="checkbox" id="counter_hit" name="counter_hit" value="1">
+	<label for="counter_hit">Counter hit</label><br>
+
+	<select name="efficiency" id="efficiency"></select><br>
+	<select name="game_version" id="game_version"></select><br>
+
+	<textarea rows="4" cols="50" name="notes" form="submit_combo" placeholder="Notes"></textarea><br>
+
+	<select name="character_form" id="character_form"></select><br>
+	<select name="distance" id="distance"></select><br>
+	<br>
+	<input type="submit">
+
+
+</form>

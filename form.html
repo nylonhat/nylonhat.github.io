@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<title>Template title</title>
+	<title>Home Page</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<!-- Style Sheets -->
@@ -23,23 +23,68 @@
 </head>
 
 <body>
-	<script>
-		$.getJSON('json/characters.json', function(jsonData){
-			$.each(jsonData, function(key, value){
-				$("#character").append(
-					`<option value="${value.character_id}">${value.name}</option>`
-				);
-			});
-		});
-	</script>
+	<div class="page-container">
 
-	<form>
-		<select name=character id=character>
-		</select>
+		<!-- Side panel for side navigation -->
+		<div class="left-panel">
 
-	</form>
+			<!-- Desktop navigation menu -->
+			<div class="nav-menu"></div>
 
+
+		</div> <!-- End of left-panel -->
+
+		<!-- Panel for main content -->
+		<div class="right-panel">
+
+			<!-- Main text content -->
+			<div class="main-content">
+				
+
+			</div> <!-- End of main-content -->
+
+		</div> <!-- End of right-panel -->
+
+	</div> <!-- End of page-containter -->
+
+	<!-- Mobile navigation button -->
+	<div class="nav-button" onclick="toggleDisplay('mobile-nav');"></div>
+
+	<!-- Fonts -->
+	<div class="mobilenavcontainer" id="mobile-nav">
+
+		<!-- Loaded nav menu from file -->
+		<div class="nav-menu"></div>
+	</div>
 
 </body>
+
+<script>
+	$(function () {
+		//Create deferered instance for each load
+		var navLoadDefer = $.Deferred();
+		var mainLoadDefer = $.Deferred();
+
+		//wait for both deferred instances to resolve before continuing
+		$.when(navLoadDefer, mainLoadDefer).then(function(){
+			createSectionLinks();
+			initExpandableLinks();
+			initSpyScroll();
+			initComboForm();
+		});
+
+		//Load navigation menu from file to .nav-menu
+		$(".nav-menu").load("sidenav.html #sidenavtemplate", function(){
+			navLoadDefer.resolve();
+		});
+
+		//Load main content form file to .main-content
+		$(".main-content").load("content/combo-form-content.html", function(){
+			mainLoadDefer.resolve();
+		});
+
+	});
+
+</script>
 
 </html>
