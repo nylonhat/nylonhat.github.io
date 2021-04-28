@@ -97,7 +97,7 @@ html, body{
 
 .main-content{
 	background-color: #FFFFFF;
-	color:#393f41 ;
+	color:#2a2d2e ;
 	margin:auto;
 	margin-left:1.5rem;
 	margin-top:1rem;
@@ -190,22 +190,24 @@ html, body{
 }
 
 h2 {
-    text-transform: uppercase;
-    font-weight: bold;
+    
     font-family: 'Noto Sans', sans-serif;
     text-align: left;
-    font-size: 25px;
+    font-size: 28px;
     margin-bottom: 0.5em;
+	
+	
 }
 
 h3 {
-    text-transform: uppercase;
+    
     font-family: 'Crimson Text', serif;
-    font-size: 20px;
+    font-size: 26px;
 	margin-bottom: 0.5em;
 	margin-top:0.5em;
     border-bottom: 1px solid #1e1e1e;
     font-weight: 600;
+	font-variant: small-caps;
 }
 
 p {
@@ -214,6 +216,7 @@ p {
 	margin-bottom: 0.8em;
 	text-indent: 0em;
 	line-height: 135%;
+	text-indent: 1em;
 }
 
 ul {
@@ -234,7 +237,7 @@ ul li:before {
 li {
     font-family: 'Crimson Text', serif;
     font-size: var(--mainfontsize);
-	line-height: 130%;
+	line-height: 120%;
 	margin-bottom: 0.3em;
 }
 
@@ -356,10 +359,6 @@ tr:nth-child(odd) {
 
 }
 
-.comboname{
-	
-
-}
 
 .combodetail{
 	padding: 0.2em;
@@ -443,7 +442,7 @@ input.long_input{
 select{
 	font-family: 'Noto Sans', sans-serif;
 	margin: 3px;
-	width: 12em;
+	width: 17em;
 	font-size: 13px;
 }
 

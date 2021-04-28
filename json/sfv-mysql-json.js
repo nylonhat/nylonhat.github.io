@@ -24,6 +24,8 @@ for (let i = 0; i < tables.length; i++) {
 		queryText = `SELECT vtrigger_id, character_id, type_id, sfv.vtriggers.name, v_bar, vtrigger_types.name as 'type_name'  FROM sfv.vtriggers inner join sfv.vtrigger_types on sfv.vtrigger_types.vtrigger_type_id = sfv.vtriggers.type_id order by sfv.vtriggers.character_id ASC, sfv.vtriggers.type_id ASC;`;
 	}else if(tables[i] == 'crush_counter_moves'){
 		queryText = `SELECT * FROM sfv.crush_counter_moves order by sfv.crush_counter_moves.order ASC;`;
+	}else if (tables[i] == 'game_versions'){
+		queryText = `SELECT * FROM sfv.game_versions order by sfv.game_versions.game_version_id DESC;`;
 	}else{
 		queryText = `SELECT * FROM sfv.${tables[i]};`;
 	}

@@ -21,13 +21,13 @@ function toggleExpandableLink() {
 		}
 	}
 }
-
+   
 
 function initExpandableLinks() {
 	var dropdown = document.getElementsByClassName("navlinks expandable-link");
 	var i;
 	for (i = 0; i < dropdown.length; i++) {
-		dropdown[i].addEventListener("click", toggleExpandableLink);
+	   	dropdown[i].addEventListener("click", toggleExpandableLink);
 	}
 }
 
@@ -47,6 +47,8 @@ function createSectionLinks() {
 			sectionLink.innerHTML = spyScrollSections[i].innerHTML;
 
 			pageSections[j].appendChild(sectionLink);
+			
+			
 
 		}
 	}
@@ -59,7 +61,7 @@ function initSpyScroll() {
 	const navMenus = document.getElementsByClassName("nav-menu");
 
 	if (spyScrollSections.length == 0) {
-		console.log("No spyscroll sections");
+		console.log("No spyscroll sections");  
 	} else {
 
 		const makeActive = (link, linkSet) => linkSet[link].classList.add("active-spyscroll-link");
@@ -71,11 +73,12 @@ function initSpyScroll() {
 		let currentActive = 0;
 
 		let i;
-		for (i = 0; i < navMenus.length; i++) {
+		for     (i = 0; i < navMenus.length; i++) {
 			const spyScrollLinks = navMenus[i].querySelectorAll(".spyscroll-link");
 
 			removeAllActive(spyScrollLinks);
 			makeActive(currentActive, spyScrollLinks);
+			
 		}
 
 		var scrollWindow = document.querySelector(".right-panel");
@@ -96,7 +99,8 @@ function initSpyScroll() {
 					removeAllActive(spyScrollLinks);
 					currentActive = current;
 					makeActive(current, spyScrollLinks);
-				}
+					removeAllActive (index, spyscrool) 
+				}    
 
 
 			}
@@ -150,7 +154,7 @@ function initComboForm() {
 				});
 			});
 
-		});
+		}); 
 
 	//Non dependant options
 	$.getJSON('json/combo_types.json', function (jsonData) {
@@ -165,6 +169,7 @@ function initComboForm() {
 		$.each(jsonData, function (key, value) {
 			$("#efficiency").append(
 				`<option value="${value.efficiency_id}">${value.name}</option>`
+				          
 			);
 		});
 	});
@@ -172,18 +177,19 @@ function initComboForm() {
 	$.getJSON('json/game_versions.json', function (jsonData) {
 		$.each(jsonData, function (key, value) {
 			$("#game_version").append(
-				`<option value="${value.game_version_id}">${value.name}</option>`
+				`<option value="${value.game_version_id}">${value.common_name} (${value.name})</option>`
 			);
 		});
 	});
 
+	
 	$.getJSON('json/distance.json', function (jsonData) {
 		$.each(jsonData, function (key, value) {
 			$("#distance").append(
 				`<option value="${value.distance_id}">${value.name}</option>`
 			);
 		});
-	});
+	}); 
 
 	//Update when different character is selected
 	$(document).on('change', '#character', function () {
@@ -195,10 +201,10 @@ function initComboForm() {
 					$("#cc_move").append(
 						`<option value="${value.crush_counter_move_id}">${value.move}</option>`
 					);
+				
 
-
-				}
-			});
+				} 
+			}); 
 		});
 
 		$.getJSON('json/character_forms.json', function (jsonData) {
