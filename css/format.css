@@ -22,7 +22,7 @@ time, mark, audio, video {
 :root{
 	--leftcolwidth: 11rem;
 	--bottomfooterheight: 3em;
-	--mainfontsize: 20px;
+	--mainfontsize: 19px;
 }
 
 html, body{
