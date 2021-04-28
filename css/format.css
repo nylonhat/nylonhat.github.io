@@ -1,4 +1,4 @@
-﻿html, body, div, span, applet, object, iframe,
+html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -97,7 +97,7 @@ html, body{
 
 .main-content{
 	background-color: #FFFFFF;
-	color:#2a2d2e ;
+	color:#2f2f2f ;
 	margin:auto;
 	margin-left:1.5rem;
 	margin-top:1rem;
@@ -229,7 +229,7 @@ ul {
 }
 
 ul li:before {
-    content: "•";
+    content: "�";
     position: absolute;
     left: 0;
 }
