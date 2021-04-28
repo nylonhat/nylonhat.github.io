@@ -87,7 +87,7 @@ function initSpyScroll() {
 			console.log("scrolling");
 
 			const current = spyScrollSections.length - [...spyScrollSections].reverse().findIndex((section) =>
-				scrollWindow.scrollTop >= section.offsetTop - sectionMargin) - 1;
+				scrollWindow.scrollTop >= section.offsetTop -   sectionMargin) - 1;
 
 
 			if (current !== currentActive) {
@@ -148,7 +148,7 @@ function initComboForm() {
 					if (value.character_id == $("#character").val()) {
 						$("#vtrigger").append(
 							`<option value="${value.vtrigger_id}">${value.name} (${value.type_name})</option>`
-						);
+						);    
 					}
 
 				});
