@@ -224,14 +224,16 @@ ul {
     list-style: none;
     margin-left: 0;
     margin-bottom: 0.5em;
-    padding-left: 1.2em;
+    /*padding-left: 1.2em;*/
     line-height: 130%;
 }
+
+
 
 ul li:before {
     content: "•";
     position: absolute;
-    left: 0;
+    left: 0.3em;
 }
 
 li {
@@ -239,6 +241,13 @@ li {
     font-size: var(--mainfontsize);
 	line-height: 120%;
 	margin-bottom: 0.3em;
+	padding-left: 1.2em;
+}
+
+
+
+li:nth-child(even){
+	background-color: #f5f5f5f5;
 }
 
 table {
@@ -284,10 +293,12 @@ tr:nth-child(odd) {
 }
 
 .combo-container{
-	border-left: 1px solid #1e1e1e;
-	border-bottom: 1px solid #1e1e1e;
+	border-left: 1px solid #8b8b8b;
+	border-bottom: 1px solid #8b8b8b;
 	
 }
+
+
 
 .spanleft {
 	text-indent: 0em;
