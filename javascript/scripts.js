@@ -48,7 +48,6 @@ function createSectionLinks() {
 
 			pageSections[j].appendChild(sectionLink);
 			
-			
 
 		}
 	}
@@ -89,7 +88,6 @@ function initSpyScroll() {
 			const current = spyScrollSections.length - [...spyScrollSections].reverse().findIndex((section) =>
 				scrollWindow.scrollTop >= section.offsetTop -   sectionMargin) - 1;
 
-
 			if (current !== currentActive) {
 
 				let i;
@@ -104,7 +102,7 @@ function initSpyScroll() {
 
 
 			}
-		});
+		}); 
 
 	}
 
