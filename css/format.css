@@ -250,8 +250,9 @@ p {
 }
 
 img {
-	width: 33rem;
+	width: 100%;
 	border-top-right-radius: 10px;
+	
 }
 
 ul {
