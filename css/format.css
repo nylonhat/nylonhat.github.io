@@ -23,6 +23,23 @@ time, mark, audio, video {
 	--leftcolwidth: 11rem;
 	--bottomfooterheight: 3em;
 	--mainfontsize: 19px;
+	
+	
+	--palate-bg-lightest:#FFFFFF;
+	--palate-bg-verylight:#F5F5F5;
+	--palate-bg-light:#DDDDDD;
+	--palate-bg-grey:#a5a5a5;
+	--palate-bg-darkgrey:#666666;
+	--palate-bg-dark:#242424;
+	--palate-bg-darkest:#121212;
+
+	--palate-text-dark:#272727;
+	--palate-text-light:#c9c9c9;
+	--palate-text-verylight:#e7e7e7;
+	--palate-text-lightest:#FFFFFF;
+
+	--palate-bg-red:#FF3E3E;
+	--palate-bg-blue:#467aff;
 }
 
 html, body{
@@ -41,7 +58,7 @@ html, body{
 	height: 100%;
 	overflow: auto;
 	box-sizing: border-box;
-	background-color: #121212;
+	background-color: var(--palate-bg-darkest);
 	-webkit-overflow-scrolling: touch;
 }
 
@@ -74,7 +91,7 @@ html, body{
 	box-sizing: border-box;
 	overflow-y:scroll;
 	-webkit-overflow-scrolling: touch;
-	background-color: #121212;
+	background-color: var(--palate-bg-darkest);
 	transition: height 0.2s;
 	transition-timing-function: ease-out;
 }
@@ -86,18 +103,18 @@ html, body{
 	right: calc(50% - calc(var(--leftcolwidth)/2));
 	width: var(--leftcolwidth);
 	height: 0.8em;
-	background-color: #12121233;
+	background-color: var(--palate-bg-darkest);
 	border-top-left-radius: 0.8em;
 	border-top-right-radius: 0.8em;
 }
 
 .nav-button:hover{
-	background-color:#242424;
+	background-color:var(--palate-bg-dark);
 }
 
 .main-content{
-	background-color: #FFFFFF;
-	color:#272727 ;
+	background-color: var(--palate-bg-lightest);
+	color:var(--palate-text-dark);
 	margin:auto;
 	margin-left:1.5rem;
 	margin-top:1rem;
@@ -137,27 +154,27 @@ html, body{
   padding: 2px 1.7em 2px 1.7em;
   text-decoration: none;
   font-size: 13px;
-  color: #c9c9c9;
+  color: var(--palate-text-light);
   display: block;
   font-family: 'Noto Sans', sans-serif;
   border-radius: 3px;
 }
 
 .nav-menu .navlinks:hover {
-  color: #c9c9c9;
-  background-color: #272727;
+  color: var(--palate-text-light);
+  background-color: var(--palate-text-dark);
 }
 
 .nav-menu .sidenavdivider{
 	border-radius: 0px;
-	border-top: 1px solid #666666;
+	border-top: 1px solid var(--palate-bg-darkgrey);
 	margin: 8px 1.7em 4px 1.7em;
 	
 }
 
 .nav-menu .navlink-title{
 	font-weight: bold;
-	color: #e7e7e7 !important;
+	color: var(--palate-text-verylight) !important;
 	margin-bottom: 2px !important;
 }
 
@@ -181,31 +198,41 @@ html, body{
 }
 
 .active-spyscroll-link{
-	border-right: 5px solid #ffffff;
+	border-right: 5px solid var(--palate-bg-lightest);
  	border-top-right-radius: 0px !important;
 	border-bottom-right-radius: 0px !important;
-	background-color: #272727;
-	color: #e7e7e7 !important;
+	background-color: var(--palate-text-dark);
+	color: var(--palate-text-verylight) !important;
 	
 }
 
 h2 {
-    
+    /*
     font-family: 'Noto Sans', sans-serif;
     text-align: left;
     font-size: 28px;
     margin-bottom: 0.5em;
-	
+	*/
+
+
+	font-family: 'Crimson Text', serif;
+    font-size: 35px;
+	margin-bottom: 0.1em;
+    font-weight: bold;
+	font-variant: small-caps;
+	letter-spacing: 0.12em;
+	line-height: 1.3em;
+	text-align: center;
 	
 }
 
 h3 {
     
     font-family: 'Crimson Text', serif;
-    font-size: 26px;
+    font-size: 24px;
 	margin-bottom: 0.4em;
 	margin-top:0.5em;
-    border-bottom: 2px solid #696969;
+    border-bottom: 2px solid var(--palate-bg-darkgrey);
     font-weight: bold;
 	font-variant: small-caps;
 	letter-spacing: 1.5px;
@@ -257,7 +284,7 @@ li {
 
 
 li:nth-child(even){
-	background-color: #f5f5f5f5;
+	background-color: var(--palate-bg-verylight);
 }
 
 
@@ -283,14 +310,14 @@ td, th {
 }
 
 tr {
-	border: 1px solid #aaaaaa;
+	border: 1px solid var(--palate-bg-grey);
 	
 }
 
 
 tr:hover {
-	background-color:  #467aff !important;
-	color: #ffffff;
+	background-color:  var(--palate-bg-blue) !important;
+	color: var(--palate-bg-lightest);
 	
 }
 
@@ -300,33 +327,33 @@ td:last-child {
 }
 
 th {
-	color: #f5f5f5f5;
-	background-color: #1e1e1e;
+	color: var(--palate-bg-verylight);
+	background-color: var(--palate-bg-darkest);
 	font-weight: normal;
 	border: 0px;
 }
 
 tr:nth-child(even) {
-    background-color: #dddddd;
+    background-color: var(--palate-bg-light);
 }
 
 tr:nth-child(odd) {
-    background-color: #f5f5f5f5;
+    background-color: var(--palate-bg-verylight);
 }
 
 .combo-container{
-	border-left: 1px solid #8b8b8b;
-	border-bottom: 1px solid #8b8b8b;
+	border-left: 1px solid var(--palate-bg-grey);
+	border-bottom: 1px solid var(--palate-bg-grey);
 	
 }
 
 .combo-container:hover{
-	border-left: 5px solid black;
-	border-bottom: 1px solid black;
+	border-left: 5px solid var(--palate-bg-darkest);;
+	border-bottom: 1px solid var(--palate-bg-darkest);;
 }
 
 .combo-container:hover + .combodetail{
-	color:black;
+	color:var(--palate-text-dark);
 }
 
 .spanleft {
@@ -352,8 +379,8 @@ tr:nth-child(odd) {
 }
 
 .exbonus {
-	color: #ffffff;
-	background-color: #a5a5a5;
+	color: var(--palate-text-lightest);
+	background-color: var(--palate-bg-grey);
 	border-radius: 2px;
 	padding-left: 7px;
 	padding-right: 7px;
@@ -362,16 +389,16 @@ tr:nth-child(odd) {
 }
 
 .exbar {
-	color: #ffffff;
-	background-color: #467aff;
+	color: var(--palate-text-lightest);
+	background-color: var(--palate-bg-blue);
 	border-radius: 2px;
 	padding-left: 7px;
 	padding-right: 7px;
 }
 
 .vbar {
-	color: #ffffff;
-	background-color: #ff3e3e;
+	color: var(--palate-text-lightest);
+	background-color: var(--palate-bg-red);
 	border-radius: 2px;
 	padding-left: 7px;
 	padding-right: 7px;
@@ -386,8 +413,8 @@ tr:nth-child(odd) {
 	float:left;
 	margin-bottom: 0;
 	font-weight:600;
-	background-color: #f5f5f5;
-	color: #808080;
+	background-color: var(--palate-bg-verylight);
+	color: var(--palate-bg-darkgrey);
 	border-top-right-radius: 2px;
 	padding-left: 7px;
 	padding-right: 7px;
@@ -425,10 +452,10 @@ video {
 
 .quote {
 	font-style: italic;
-	border-left: 5px solid #1e1e1e;
+	border-left: 5px solid var(--palate-bg-darkest);
 	padding-left: 1em;
 	text-indent: 0;
-	background-color: #f5f5f5;
+	background-color: var(--palate-bg-verylight);
 	padding-right: 0.4em;
 	padding-top: 0.4em;
 	padding-bottom: 0.4em;
@@ -439,7 +466,7 @@ video {
 	font-size: 12px;
 	margin-bottom: 0em;
 	text-indent: 0;
-	background-color: #f5f5f5;
+	background-color: var(--palate-bg-verylight);
 	padding: 0.5em;
 	border-radius: 2px;
 	border-bottom-left-radius: 0px;
