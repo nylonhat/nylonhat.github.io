@@ -83,7 +83,7 @@ html, body{
 	height: 0em;
 	max-height: calc(90vh - 2rem);
 	position: fixed;
-	bottom: 2em;
+	bottom: 2.5em;
 	right: calc(50% - calc(var(--leftcolwidth)/2));
 	width: var(--leftcolwidth);
 	border-radius: 5px;
@@ -102,8 +102,9 @@ html, body{
 	bottom: 0.5em;
 	right: calc(50% - calc(var(--leftcolwidth)/2));
 	width: var(--leftcolwidth);
-	height: 0.8em;
+	height: 1.5em;
 	background-color: var(--palate-bg-darkest);
+	opacity: 0.4;
 	border-top-left-radius: 0.8em;
 	border-top-right-radius: 0.8em;
 }
@@ -232,7 +233,7 @@ h3 {
     font-size: 24px;
 	margin-bottom: 0.4em;
 	margin-top:0.5em;
-    border-bottom: 2px solid var(--palate-bg-darkgrey);
+    border-bottom: 2px solid var(--palate-bg-dark);
     font-weight: bold;
 	font-variant: small-caps;
 	letter-spacing: 1.5px;
