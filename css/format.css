@@ -25,11 +25,11 @@ time, mark, audio, video {
 	--mainfontsize: 19px;
 	
 	
-	--palate-bg-lightest:#FFFFFF;
+	--palate-bg-lightest:#fdfdfd;
 	--palate-bg-verylight:#F5F5F5;
 	--palate-bg-light:#DDDDDD;
-	--palate-bg-grey:#a5a5a5;
-	--palate-bg-darkgrey:#666666;
+	--palate-bg-grey:#9b9b9b;
+	--palate-bg-darkgrey:#4b4b4b;
 	--palate-bg-dark:#242424;
 	--palate-bg-darkest:#121212;
 
@@ -46,6 +46,7 @@ html, body{
 	height: 100%;
 	overflow: hidden;
 	margin: 0;
+	background-color: var(--palate-bg-lightest);
 }
 
 .page-container {
@@ -114,7 +115,7 @@ html, body{
 }
 
 .main-content{
-	background-color: var(--palate-bg-lightest);
+	
 	color:var(--palate-text-dark);
 	margin:auto;
 	margin-left:1.5rem;
@@ -233,7 +234,7 @@ h3 {
     font-size: 24px;
 	margin-bottom: 0.4em;
 	margin-top:0.5em;
-    border-bottom: 2px solid var(--palate-bg-dark);
+    border-bottom: 2px solid var(--palate-bg-darkgrey);
     font-weight: bold;
 	font-variant: small-caps;
 	letter-spacing: 1.5px;
@@ -253,6 +254,10 @@ p {
 img {
 	width: 100%;
 	border-top-right-radius: 10px;
+	max-height: 100px;
+	object-fit: cover;
+	object-position: 100% 20%;
+	
 	
 }
 
@@ -263,6 +268,7 @@ ul {
     margin-bottom: 0.5em;
     /*padding-left: 1.2em;*/
     line-height: 130%;
+	
 }
 
 
@@ -283,10 +289,19 @@ li {
 	padding-left: 2em;
 }
 
+li:hover{
+	background-color: var(--palate-bg-blue);
+	color: var(--palate-text-lightest);
+}
 
 
 li:nth-child(even){
 	background-color: var(--palate-bg-verylight);
+}
+
+li:nth-child(even):hover{
+	background-color: var(--palate-bg-blue);
+	color: var(--palate-text-lightest);
 }
 
 
@@ -299,6 +314,11 @@ table {
     width: 100%;
 	margin-bottom: 1.8em;
 	margin-top: 1.8em;
+	
+}
+
+table:hover {
+	box-shadow: 1px -1px 6px rgb(0 0 0 / 45%);
 }
 
 td, th {
@@ -350,8 +370,9 @@ tr:nth-child(odd) {
 }
 
 .combo-container:hover{
-	border-left: 5px solid var(--palate-bg-darkest);;
-	border-bottom: 1px solid var(--palate-bg-darkest);;
+	border-left: 5px solid var(--palate-bg-darkest);
+	border-bottom: 1px solid var(--palate-bg-darkest);
+	
 }
 
 .combo-container:hover + .combodetail{
@@ -441,6 +462,7 @@ tr:nth-child(odd) {
 video {
 	width: 100% ;
 	height: auto ;
+	box-shadow: 1px -1px 6px rgb(0 0 0 / 45%);
 }
 
 .videotext{
@@ -461,7 +483,10 @@ video {
 	padding-right: 0.4em;
 	padding-top: 0.4em;
 	padding-bottom: 0.4em;
+	
 }
+
+
 
 .codeblock {
 	font-family: 'Roboto mono', monospace;
