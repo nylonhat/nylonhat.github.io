@@ -51,7 +51,6 @@ function createSectionLinks() {
 
 		}
 	}
-
 }
 
 
@@ -99,13 +98,9 @@ function initSpyScroll() {
 					makeActive(current, spyScrollLinks);
 					removeAllActive (index, spyscrool) 
 				}    
-
-
 			}
 		}); 
-
 	}
-
 }
 
 function initComboForm() {
@@ -226,10 +221,7 @@ function initComboForm() {
 						`<option value="${value.vtrigger_id}">${value.name} (${value.type_name})</option>`
 					);
 				}
-
 			});
 		});
-
-
 	});
 }
