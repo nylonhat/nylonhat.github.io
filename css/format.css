@@ -303,6 +303,7 @@ table {
     width: 100%;
 	margin-bottom: 1.8em;
 	margin-top: 1.8em;
+	color: var(--c-primary-200);
 	
 }
 
@@ -330,7 +331,7 @@ td:last-child {
 }
 
 th {
-	color: var(--c-primary-200);
+	color: var(--c-primary-100);
 	background-color: var(--c-primary-900);
 	font-weight: normal;
 	border: 0px;
@@ -354,12 +355,13 @@ tr:hover {
 	border-left: 1px solid var(--c-primary-900);
 	border-bottom: 1px solid var(--c-primary-900);
 	
-	
 }
 
+
+
 .combo-container:hover{
-	border-left: 5px solid var(--c-accent-g-300);
-	border-bottom: 1px solid var(--c-accent-g-300);
+	border-left: 5px solid var(--c-accent-o-400);
+	
 	
 }
 
@@ -376,11 +378,21 @@ tr:hover {
 	margin-bottom: 0.18em;
 	font-weight:normal;
 	padding-bottom: 0px;
-	color: var(--c-accent-g-300);	
+	color: var(--c-accent-o-200);	
 }
+
 
 .comboname{
 	letter-spacing: 0.05em;
+	
+}
+
+.combo-and-detail{
+	margin-bottom: 0.4em;
+}
+
+.combo-and-detail:nth-of-type(2n) .comboname{
+	color: #9fc58f;
 }
 
 .spanright {
@@ -446,10 +458,10 @@ tr:hover {
 }
 
 .combodetail{
-	padding: 0.2em;
+	padding: 0.2em 0.5em 0.3em 0.5em;
 	font-family: 'Noto Sans', sans-serif;
 	font-size: 11px;
-	margin-bottom: 0.9em;
+	/*margin-bottom: 0.9em;*/
 	text-align:left;
 	
 }
@@ -495,11 +507,15 @@ video {
 	color:var(--c-primary-300);
 }
 
+
+
 form {
 	font-family: 'Noto Sans', sans-serif;
 	display:inline-block;
 	padding: 0em;
 	width: 100%;
+	
+	
 }
 
 label {
@@ -511,8 +527,10 @@ input[type=checkbox], input[type=radio]
 {
     vertical-align: middle;
     position: relative;
-    bottom: 0.5px;
+    bottom: -0.7px;
 	width:10px;
+	filter: invert(90%) hue-rotate(340deg) brightness(1.6);
+	margin-left: 5px;
 }
 
 input{
@@ -520,11 +538,24 @@ input{
 	font-size: 13px;
 	margin: 3px;
 	width: 6em;
+	background-color: var(--c-primary-600);
+	border:1px solid var(--c-primary-900);
+	color: var(--c-primary-300);
+	padding-left: 0.3em;
+	border-radius: 2px;
 }
+
+input::placeholder{
+	color: var(--c-primary-400);
+}
+
+
 
 input.long_input{
 	font-family: 'Roboto mono', monospace;
 	width: 100%;
+	color: var(--c-primary-300);
+	
 }
 
 select{
@@ -532,10 +563,26 @@ select{
 	margin: 3px;
 	width: 17em;
 	font-size: 13px;
+	background-color: var(--c-primary-600);
+	color: var(--c-primary-300);
+	border:1px solid var(--c-primary-900);
+	border-radius: 2px;
 }
 
 textarea{
 	font-family: 'Noto Sans', sans-serif;
 	margin: 3px;
 	width: 100%;
+	background-color: var(--c-primary-600);
+	color: var(--c-primary-300);
+	padding-left: 0.3em;
+	border:1px solid var(--c-primary-900);
+	border-radius: 2px;
+	max-width: 100%;
+	min-width: 100%;
 }
+
+input[type=submit]{
+	padding: 3px;
+}
+

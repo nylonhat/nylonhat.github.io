@@ -67,6 +67,8 @@ function writeHtml(combos){
 		
 		//--------------
 		//Combo details
+		console.log(`<div class="combo-and-detail">`);
+
 		console.log(`<div class="combo-container">`);
 		console.log(`\t<p class="spanleft comboname">${comboName}`);
 		console.log(`\t\t<span class="spanleft dmgstun">`);
@@ -103,6 +105,9 @@ function writeHtml(combos){
 		console.log(`<div class="combodetail">`);
 		console.log(`\t${notes}`);
 		console.log(`</div>`);
+
+		console.log(`</div>`);
+		
 		console.log();
 
 		

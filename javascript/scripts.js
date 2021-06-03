@@ -47,7 +47,6 @@ function createSectionLinks() {
 			sectionLink.innerHTML = spyScrollSections[i].innerHTML;
 
 			pageSections[j].appendChild(sectionLink);
-			
 
 		}
 	}
