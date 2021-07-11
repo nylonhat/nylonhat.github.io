@@ -94,7 +94,7 @@ function initSpyScroll() {
 
 					removeAllActive(spyScrollLinks);
 					currentActive = current;
-					makeActive(current, spyScrollLinks);
+					makeActive(current, spyScrollLinks);	
 					removeAllActive (index, spyscrool) 
 				}    
 			}

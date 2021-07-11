@@ -295,6 +295,12 @@ li:nth-child(even):hover{
 	color: var(--c-primary-900);
 }
 
+th{
+	color: var(--c-accent-g-300) !important;
+	
+	
+}
+
 table {
 	font-family: 'Noto Sans', sans-serif;
 	font-variant: tabular-nums;
@@ -302,7 +308,7 @@ table {
     border-collapse: collapse;
     width: 100%;
 	margin-bottom: 1.8em;
-	margin-top: 1.8em;
+	margin-top: 1em;
 	color: var(--c-primary-200);
 	
 }
@@ -311,6 +317,8 @@ table:hover {
 	box-shadow: 1px -1px 6px rgb(0 0 0 / 45%);
 }
 
+
+
 td, th {
 	
     text-align: left;
@@ -318,8 +326,10 @@ td, th {
 	padding-left: 1em;
 	padding-right: 1em;
 	white-space: nowrap;
-	min-width: 5em;
+	min-width: 1em;
 }
+
+
 
 tr {
 	border: 1px solid var(--c-primary-600);
