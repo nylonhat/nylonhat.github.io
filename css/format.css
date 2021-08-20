@@ -310,6 +310,7 @@ table {
 	margin-bottom: 1.8em;
 	margin-top: 1em;
 	color: var(--c-primary-200);
+	cursor: default;
 	
 }
 
