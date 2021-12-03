@@ -210,7 +210,7 @@ html, body{
 }
 
 h2 {
-	font-family: 'Crimson Text', serif;
+	font-family: 'Crimson Pro', serif;
     font-size: 35px;
 	margin-bottom: 0.1em;
 	font-variant: small-caps;
@@ -223,7 +223,7 @@ h2 {
 
 h3 {
     
-    font-family: 'Crimson Text', serif;
+    font-family: 'Crimson Pro', serif;
     font-size: 24px;
 	margin-bottom: 0.4em;
 	margin-top:0.5em;
@@ -236,13 +236,13 @@ h3 {
 }
 
 p {
-	font-family: 'Crimson Text', serif;
+	font-family: 'Crimson Pro', serif;
 	font-size: var(--mainfontsize);
 	margin-bottom: 0.5em;
 	text-indent: 0em;
-	line-height: 135%;
+	line-height: 130%;
 	text-indent: 1em;
-	letter-spacing: 0.02em;
+	letter-spacing: 0.01em;
 }
 
 img {
@@ -269,10 +269,11 @@ ul li:before {
     content: "•";
     position: absolute;
     left: 0.8em;
+	COLOR: var(--c-accent-o-400)
 }
 
 li {
-    font-family: 'Crimson Text', serif;
+    font-family: 'Crimson Pro', serif;
     font-size: var(--mainfontsize);
 	line-height: 120%;
 	padding-top: 0.2em;
@@ -310,7 +311,6 @@ table {
 	margin-bottom: 1.8em;
 	margin-top: 1em;
 	color: var(--c-primary-200);
-	cursor: default;
 	
 }
 
@@ -501,6 +501,8 @@ video {
 	padding-right: 0.4em;
 	padding-top: 0.4em;
 	padding-bottom: 0.4em;
+	letter-spacing: 0.03em;
+	color:var(--c-accent-o-400);
 	
 }
 
