@@ -345,6 +345,11 @@ tr {
 	
 }
 
+
+.curve_max {
+	color: var(--c-accent-o-200) ;
+}
+
 td:last-child {
     width: 100%;
 }
